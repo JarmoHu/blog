@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.430074.xyz//posts/2022/1001.html</loc>
+    <loc>https://www.430074.xyz//posts/2022/1.html</loc>
     <lastmod>2022-04-10</lastmod>
   </url>
   <url>
-    <loc>https://www.430074.xyz//posts/2022/1001.html</loc>
+    <loc>https://www.430074.xyz//posts/2022/3.html</loc>
+    <lastmod>2022-04-10</lastmod>
+  </url>
+  <url>
+    <loc>https://www.430074.xyz//posts/2022/4.html</loc>
+    <lastmod>2022-04-10</lastmod>
+  </url>
+  <url>
+    <loc>https://www.430074.xyz//posts/2022/4.html</loc>
+    <lastmod>2022-04-10</lastmod>
+  </url>
+  <url>
+    <loc>https://www.430074.xyz//posts/2022/2.html</loc>
     <lastmod>2022-04-09</lastmod>
   </url>
 </urlset> 
