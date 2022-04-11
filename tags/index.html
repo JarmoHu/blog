@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="zh-CN">
+<html lang="zh-CN,en,default">
 
 
 <head>
@@ -377,7 +377,7 @@
                         var diffDays = Math.floor((diff / days) - diffYears * 365);
 
                         // 区分是否有年份.
-                        var language = 'zh-CN';
+                        var language = 'zh-CN,en,default';
                         if (startYear === String(todayYear)) {
                             document.getElementById("year").innerHTML = todayYear;
                             var daysTip = 'This site has been running for ' + diffDays + ' days';

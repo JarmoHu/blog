@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="zh-CN">
+<html lang="zh-CN,en,default">
 
 
 <head>
@@ -259,7 +259,7 @@
     let option = {
         title: {
             top: 0,
-            text: '文章日历',
+            text: 'Post Calendar',
             left: 'center',
             textStyle: {
                 color: '#3C4858'
@@ -306,12 +306,12 @@
                 show: false
             },
             monthLabel: {
-                nameMap: 'cn',
+                nameMap: 'en',
                 fontSize: 11
             },
             dayLabel: {
                 formatter: '{start}  1st',
-                nameMap: 'cn',
+                nameMap: 'en',
                 fontSize: 11
             }
         }],
@@ -358,7 +358,7 @@
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6">
                     <div class="card">
-                        <a href="/posts/2022/1.html">
+                        <a href="/zh-cn/EssayWriting.html">
                             <div class="card-image">
                                 
                                 
@@ -425,7 +425,7 @@
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6">
                     <div class="card">
-                        <a href="/posts/2022/2.html">
+                        <a href="/zh-cn/contactinfo.html">
                             <div class="card-image">
                                 
                                 
@@ -542,7 +542,7 @@ QQ 号码：&nbsp;609953934
                         var diffDays = Math.floor((diff / days) - diffYears * 365);
 
                         // 区分是否有年份.
-                        var language = 'zh-CN';
+                        var language = 'zh-CN,en,default';
                         if (startYear === String(todayYear)) {
                             document.getElementById("year").innerHTML = todayYear;
                             var daysTip = 'This site has been running for ' + diffDays + ' days';
