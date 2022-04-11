@@ -6,7 +6,7 @@
   <link href="https://www.430074.xyz/atom.xml" rel="self"/>
   
   <link href="https://www.430074.xyz/"/>
-  <updated>2022-04-10T15:23:36.630Z</updated>
+  <updated>2022-04-11T07:49:06.378Z</updated>
   <id>https://www.430074.xyz/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>lumerical + python API 使用教程</title>
+    <link href="https://www.430074.xyz/posts/lumercialpy.html"/>
+    <id>https://www.430074.xyz/posts/lumercialpy.html</id>
+    <published>2022-04-11T06:56:10.000Z</published>
+    <updated>2022-04-11T07:49:06.378Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;本教程由本人所在团队所著，请前往教程主页观看。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;教程主页：&lt;/strong&gt; &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="科研" scheme="https://www.430074.xyz/categories/%E7%A7%91%E7%A0%94/"/>
+    
+    <category term="仿真" scheme="https://www.430074.xyz/categories/%E7%A7%91%E7%A0%94/%E4%BB%BF%E7%9C%9F/"/>
+    
+    
+    <category term="科研" scheme="https://www.430074.xyz/tags/%E7%A7%91%E7%A0%94/"/>
+    
+  </entry>
   
   <entry>
     <title>论文写作经验</title>
