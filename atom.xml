@@ -6,7 +6,7 @@
   <link href="https://www.430074.xyz/atom.xml" rel="self"/>
   
   <link href="https://www.430074.xyz/"/>
-  <updated>2022-04-11T07:49:54.756Z</updated>
+  <updated>2022-04-07T08:50:49.885Z</updated>
   <id>https://www.430074.xyz/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://www.430074.xyz/posts/hello-world.html"/>
+    <id>https://www.430074.xyz/posts/hello-world.html</id>
+    <published>2022-04-11T14:31:18.073Z</published>
+    <updated>2022-04-07T08:50:49.885Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>lumerical + python API 使用教程</title>
@@ -51,15 +72,17 @@
     <link href="https://www.430074.xyz/posts/EssayWriting.html"/>
     <id>https://www.430074.xyz/posts/EssayWriting.html</id>
     <published>2022-04-08T07:37:02.000Z</published>
-    <updated>2022-04-10T15:23:36.630Z</updated>
+    <updated>2022-04-11T14:27:22.400Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;写作目的&quot;&gt;&lt;a href=&quot;#写作目的&quot; class=&quot;headerlink&quot; title=&quot;写作目的&quot;&gt;&lt;/a&gt;写作目的&lt;/h2&gt;&lt;p&gt;记录在第一次修改英语论文中的经验和教训。&lt;/p&gt;
-&lt;h2 id=&quot;文章结构方面&quot;&gt;&lt;a href=&quot;#文章结构方面&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;写作目的&quot;&gt;写作目的&lt;/h2&gt;
+&lt;p&gt;记录在第一次修改英语论文中的经验和教训。&lt;/p&gt;
+&lt;h2 id=&quot;文章结构方面&quot;&gt;文章结构方面&lt;/h2&gt;
+&lt;h3 id=&quot;1-了解你的审稿人和编辑&quot;&gt;1.</summary>
         
       
     
@@ -88,8 +111,10 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;联系方式：&quot;&gt;&lt;a href=&quot;#联系方式：&quot; class=&quot;headerlink&quot; title=&quot;联系方式：&quot;&gt;&lt;/a&gt;联系方式：&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;QQ 号码：&lt;/strong&gt;&amp;nbsp;&lt;a</summary>
+    <summary type="html">&lt;h2 id=&quot;联系方式：&quot;&gt;联系方式：&lt;/h2&gt;
+&lt;ul class=&quot;lvl-0&quot;&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;
+&lt;p&gt;&lt;strong&gt;QQ 号码：&lt;/strong&gt;&amp;nbsp;&lt;a</summary>
         
       
     
