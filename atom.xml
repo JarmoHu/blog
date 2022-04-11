@@ -6,7 +6,7 @@
   <link href="https://www.430074.xyz/atom.xml" rel="self"/>
   
   <link href="https://www.430074.xyz/"/>
-  <updated>2022-04-11T05:40:29.815Z</updated>
+  <updated>2022-04-10T15:23:36.630Z</updated>
   <id>https://www.430074.xyz/</id>
   
   <author>
@@ -17,22 +17,9 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>contactinfo</title>
-    <link href="https://www.430074.xyz/posts/en/contactinfo.html"/>
-    <id>https://www.430074.xyz/posts/en/contactinfo.html</id>
-    <published>2022-04-11T05:40:29.000Z</published>
-    <updated>2022-04-11T05:40:29.815Z</updated>
-    
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>论文写作经验</title>
-    <link href="https://www.430074.xyz/posts/zh-cn/EssayWriting.html"/>
-    <id>https://www.430074.xyz/posts/zh-cn/EssayWriting.html</id>
+    <link href="https://www.430074.xyz/posts/EssayWriting.html"/>
+    <id>https://www.430074.xyz/posts/EssayWriting.html</id>
     <published>2022-04-08T07:37:02.000Z</published>
     <updated>2022-04-10T15:23:36.630Z</updated>
     
@@ -61,8 +48,8 @@
   
   <entry>
     <title>个人简历</title>
-    <link href="https://www.430074.xyz/posts/zh-cn/contactinfo.html"/>
-    <id>https://www.430074.xyz/posts/zh-cn/contactinfo.html</id>
+    <link href="https://www.430074.xyz/posts/contactinfo.html"/>
+    <id>https://www.430074.xyz/posts/contactinfo.html</id>
     <published>2022-04-05T14:05:48.000Z</published>
     <updated>2022-04-09T03:50:14.371Z</updated>
     
