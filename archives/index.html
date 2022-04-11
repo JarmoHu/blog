@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en,zh-cn,default">
+<html lang="zh-cn">
 
 
 <head>
@@ -259,7 +259,7 @@
     let option = {
         title: {
             top: 0,
-            text: 'Post Calendar',
+            text: '文章日历',
             left: 'center',
             textStyle: {
                 color: '#3C4858'
@@ -306,12 +306,12 @@
                 show: false
             },
             monthLabel: {
-                nameMap: 'en',
+                nameMap: 'cn',
                 fontSize: 11
             },
             dayLabel: {
                 formatter: '{start}  1st',
-                nameMap: 'en',
+                nameMap: 'cn',
                 fontSize: 11
             }
         }],
@@ -358,7 +358,7 @@
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6">
                     <div class="card">
-                        <a href="/en/contactinfo.html">
+                        <a href="/posts/en/contactinfo.html">
                             <div class="card-image">
                                 
                                 
@@ -407,7 +407,7 @@
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6">
                     <div class="card">
-                        <a href="/zh-cn/EssayWriting.html">
+                        <a href="/posts/zh-cn/EssayWriting.html">
                             <div class="card-image">
                                 
                                 
@@ -474,7 +474,7 @@
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6">
                     <div class="card">
-                        <a href="/zh-cn/contactinfo.html">
+                        <a href="/posts/zh-cn/contactinfo.html">
                             <div class="card-image">
                                 
                                 
@@ -591,7 +591,7 @@ QQ 号码：&nbsp;609953934
                         var diffDays = Math.floor((diff / days) - diffYears * 365);
 
                         // 区分是否有年份.
-                        var language = 'en,zh-cn,default';
+                        var language = 'zh-cn';
                         if (startYear === String(todayYear)) {
                             document.getElementById("year").innerHTML = todayYear;
                             var daysTip = 'This site has been running for ' + diffDays + ' days';
