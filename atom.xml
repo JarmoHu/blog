@@ -6,7 +6,7 @@
   <link href="https://www.430074.xyz/atom.xml" rel="self"/>
   
   <link href="https://www.430074.xyz/"/>
-  <updated>2022-04-07T08:50:49.885Z</updated>
+  <updated>2022-04-11T07:49:54.756Z</updated>
   <id>https://www.430074.xyz/</id>
   
   <author>
@@ -15,27 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://www.430074.xyz/posts/hello-world.html"/>
-    <id>https://www.430074.xyz/posts/hello-world.html</id>
-    <published>2022-04-11T14:31:18.073Z</published>
-    <updated>2022-04-07T08:50:49.885Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>lumerical + python API 使用教程</title>
