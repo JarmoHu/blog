@@ -6,7 +6,7 @@
   <link href="https://www.430074.xyz/atom.xml" rel="self"/>
   
   <link href="https://www.430074.xyz/"/>
-  <updated>2022-05-22T04:10:03.034Z</updated>
+  <updated>2022-05-22T09:34:50.415Z</updated>
   <id>https://www.430074.xyz/</id>
   
   <author>
@@ -21,16 +21,15 @@
     <link href="https://www.430074.xyz/posts/workers-jsdeliver.html"/>
     <id>https://www.430074.xyz/posts/workers-jsdeliver.html</id>
     <published>2022-05-22T02:44:43.000Z</published>
-    <updated>2022-05-22T04:10:03.034Z</updated>
+    <updated>2022-05-22T09:34:50.415Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;代码如下，具有防跨站和网址加密功能。你问我用这个有什么意义，主要是可以套国内的CDN呀！&lt;/p&gt;
-&lt;p&gt;非专业程序员，js和正则都是现学的，没啥基础，如果有改进方式，非常欢迎。&lt;/p&gt;
-&lt;pre class=&quot;line-numbers</summary>
+    <summary type="html">&lt;h2 id=&quot;1、前言&quot;&gt;1、前言&lt;/h2&gt;
+&lt;p&gt;自从 &lt;a href=&quot;http://cdn.jsdelivr.net&quot;&gt;cdn.jsdelivr.net&lt;/a&gt; 被qiang了之后，很多网站都无法正常访问。目前比较受欢迎的解决方法是用其镜像网址代替，比如 &lt;a</summary>
         
       
     

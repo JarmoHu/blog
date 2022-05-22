@@ -5,10 +5,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="Cloudflare workers 反代 jsdeliver并套上CDN, 光学,光学工程,纳米光子学,逆向设计,光计算，硅光，光电子，硅基光电子，芯片，纳米技术，光刻，科研，华中科技大学，波导，通信，光通信">
-    <meta name="description" content="代码如下，具有防跨站和网址加密功能。你问我用这个有什么意义，主要是可以套国内的CDN呀！
-非专业程序员，js和正则都是现学的，没啥基础，如果有改进方式，非常欢迎。
-// 允许的 CORS 来源
-const ALLOWED_REFERER =">
+    <meta name="description" content="1、前言
+自从 cdn.jsdelivr.net 被qiang了之后，很多网站都无法正常访问。目前比较受欢迎的解决方法是用其镜像网址代替，比如 gcore.jsdelivr.net， cf.jsdelivr.net 和 fastly.jsd">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -46,9 +44,9 @@ const ALLOWED_REFERER =">
 
     <script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/3.6.0/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 6.1.0">
+<meta name="generator" content="Hexo 6.1.0"><link rel="alternate" href="/atom.xml" title="光学笔记" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="光学笔记" type="application/atom+xml">
 </head>
 
 
@@ -432,8 +430,10 @@ const ALLOWED_REFERER =">
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>代码如下，具有防跨站和网址加密功能。你问我用这个有什么意义，主要是可以套国内的CDN呀！</p>
-<p>非专业程序员，js和正则都是现学的，没啥基础，如果有改进方式，非常欢迎。</p>
+                <h2 id="1、前言">1、前言</h2>
+<p>自从 <a target="_blank" rel="noopener" href="http://cdn.jsdelivr.net">cdn.jsdelivr.net</a> 被qiang了之后，很多网站都无法正常访问。目前比较受欢迎的解决方法是用其镜像网址代替，比如 <a target="_blank" rel="noopener" href="http://gcore.jsdelivr.net">gcore.jsdelivr.net</a>， <a target="_blank" rel="noopener" href="http://cf.jsdelivr.net">cf.jsdelivr.net</a> 和 <a target="_blank" rel="noopener" href="http://fastly.jsdelivr.net">fastly.jsdelivr.net</a>。其中 <a target="_blank" rel="noopener" href="http://fastly.jsdelivr.net">fastly.jsdelivr.net</a> 由于大陆解析的服务器在日本所以延迟较低，但是丢包较大，<a target="_blank" rel="noopener" href="http://xn--gcore-r63n.jsdelivr.net">而gcore.jsdelivr.net</a> 和 <a target="_blank" rel="noopener" href="http://cf.jsdelivr.net">cf.jsdelivr.net</a> 延迟和丢包都不理想。并且，由于某些原因，这些镜像服务并不能保证以后一直可以使用。</p>
+<p>本文介绍了一种使用cloudflare workers反代cdn.jsdelivr.net的方法。workers提供每天10w次的免费访问额度，对于一些小站非常好用，若是套上CDN，则通过缓存可以大大减少请求数。同时本文提供的方案可以防止跨站和对url进行加密，从而避免自己的服务被人滥用。本人非专业程序员，js和正则都是现学的，如果有改进方式，非常欢迎指导。</p>
+<h2 id="2、代码">2、代码</h2>
 <pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token comment">// 允许的 CORS 来源</span>
 <span class="token keyword">const</span> <span class="token constant">ALLOWED_REFERER</span> <span class="token operator">=</span> <span class="token punctuation">[</span>
   <span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">^https?:\/\/localhost(:\d*)?\/.*$</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">,</span>
@@ -495,24 +495,18 @@ const ALLOWED_REFERER =">
 <span class="token parameter">event</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
   event<span class="token punctuation">.</span><span class="token function">respondWith</span><span class="token punctuation">(</span><span class="token function">handle</span><span class="token punctuation">(</span>event<span class="token punctuation">.</span>request<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<ol>
-<li class="lvl-3">
-<p>创建cloudflare workers并复制粘贴以上代码</p>
-</li>
-</ol>
-<p>网上一堆教程，随便看一个吧。</p>
-<p><a target="_blank" rel="noopener" href="https://www.cxyzjd.com/article/qq_22903531/109544730">CloudFlare的Worker免费部署服务_Jum的博客-程序员宅基地_cloudflare worker - 程序员宅基地</a></p>
-<ol start="2">
-<li class="lvl-3">
-<p>修改参数，主要时refer改成你的网站，这里的正则你大概能看懂怎么改，注意把 . 换成 \. 就行了。然后修改密码，主要是方式被滥用。</p>
-</li>
-<li class="lvl-3">
-<p>修改你的网址，使其带上SHA-1加密。比如你的workers绑定的域名是 <a target="_blank" rel="noopener" href="http://w3schools.com">w3schools.com</a> ，你想反代的网址是 <a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js">https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js</a> ，你的密码是 123456 。找一个可以SHA-1加密的工具（比如网站 <a target="_blank" rel="noopener" href="http://www.metools.info/code/c22.html">SHA1在线加密、校验工具-ME2在线工具</a> ），然后复制 url+你的密码 （对应于上面的例子就是 /npm/jquery@3.2.1/dist/jquery.min.js123456 ），得到密文 （对应于上面的例子就是 371388c8eafe02c8876f67abe1d170b920218881 ）。这时重新组合你的新的请求的host+url为： <a target="_blank" rel="noopener" href="https://xn--workers-l45kx16aosjm31g/%E5%AF%86%E6%96%87/%E5%8E%9Furl">https://你的workers域名/密文/原url</a> (对应于上面的例子就是 <a target="_blank" rel="noopener" href="https://w3schools.com/371388c8eafe02c8876f67abe1d170b920218881/npm/jquery@3.2.1/dist/jquery.min.js">https://w3schools.com/371388c8eafe02c8876f67abe1d170b920218881/npm/jquery@3.2.1/dist/jquery.min.js</a> )。</p>
-</li>
-<li class="lvl-3">
-<p>在你的网站中替换这个网址就OK啦！</p>
-</li>
-</ol>
+<h2 id="3、使用教程">3、使用教程</h2>
+<h3 id="3-1-创建一个cloudflare-workers">3.1 创建一个cloudflare workers</h3>
+<p>复制粘贴以上代码，建议绑定自己的域名，此处可参考网上其他教程。比如：<br>
+<a target="_blank" rel="noopener" href="https://blog.csdn.net/m0_58606834/article/details/124670218">CloudFlare Workers 设置使用自定义域名_一曲横笛的博客-CSDN博客_cloudflare workers绑定自定义域名</a><br>
+<a target="_blank" rel="noopener" href="https://www.cxyzjd.com/article/qq_22903531/109544730">CloudFlare的Worker免费部署服务_Jum的博客-程序员宅基地_cloudflare worker - 程序员宅基地</a></p>
+<h3 id="3-2-修改参数。">3.2 修改参数。</h3>
+<p>1、修改 ALLOWED_REFERER 常量，里面包含了可以使用本服务的域名列表。按照模板，修改成自己的域名。同时 ALLOW_NO_ORIGIN = true 是表示允许无referer访问本服务，比如直接浏览器打开。若是对Referer有疑问，可参考：<a target="_blank" rel="noopener" href="https://www.ruanyifeng.com/blog/2019/06/http-referer.html">HTTP Referer 教程 - 阮一峰的网络日志</a>。</p>
+<p>2、修改密码 MYSECRET，这里的密码是用来加密网址的，因为Referer可以伪造，所以为了避免他人用你的服务干自己的事情，所以需要密码进行加密。</p>
+<h3 id="3-3-获得加密请求网址">3.3 获得加密请求网址</h3>
+<p>1、假设workers 绑定的域名是 <a target="_blank" rel="noopener" href="http://w3schools.com">w3schools.com</a> ，密码是 123456 ，想要反代的网址是https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js 。</p>
+<p>2、获得带加密的明文，为 url.path + 密码，如上则是 /npm/jquery@3.2.1/dist/jquery.min.js123456 。获得该字符串的SHA-1编码，比如可以通过这个网站：<a target="_blank" rel="noopener" href="http://www.metools.info/code/c22.html">SHA1在线加密、校验工具-ME2在线工具</a> 。得到密文371388c8eafe02c8876f67abe1d170b920218881。</p>
+<p>3、生成新的请求网址：你的域名 + /密文 + 原url.path。如上文则是 <a target="_blank" rel="noopener" href="https://w3schools.com/371388c8eafe02c8876f67abe1d170b920218881/npm/jquery@3.2.1/dist/jquery.min.js">https://w3schools.com/371388c8eafe02c8876f67abe1d170b920218881/npm/jquery@3.2.1/dist/jquery.min.js</a> 。然后在网站中替换为该地址即可。</p>
 
                 
             </div>
