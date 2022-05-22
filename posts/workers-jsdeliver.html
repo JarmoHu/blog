@@ -5,10 +5,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="Cloudflare workers 反代 jsdeliver并套上CDN, 光学,光学工程,纳米光子学,逆向设计,光计算，硅光，光电子，硅基光电子，芯片，纳米技术，光刻，科研，华中科技大学，波导，通信，光通信">
-    <meta name="description" content="// 允许的 CORS 来源
-const ALLOWED_REFERER = [
-  /^https?:\/\/localhost(:\d*)?\/.*$/,
-  /^https?:\/\/([\w-]+\.)*w3schools\.com">
+    <meta name="description" content="代码如下，具有防跨站和网址加密功能。你问我用这个有什么意义，主要是可以套国内的CDN呀！
+非专业程序员，js和正则都是现学的，没啥基础，如果有改进方式，非常欢迎。
+// 允许的 CORS 来源
+const ALLOWED_REFERER =">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -432,7 +432,9 @@ const ALLOWED_REFERER = [
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token comment">// 允许的 CORS 来源</span>
+                <p>代码如下，具有防跨站和网址加密功能。你问我用这个有什么意义，主要是可以套国内的CDN呀！</p>
+<p>非专业程序员，js和正则都是现学的，没啥基础，如果有改进方式，非常欢迎。</p>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token comment">// 允许的 CORS 来源</span>
 <span class="token keyword">const</span> <span class="token constant">ALLOWED_REFERER</span> <span class="token operator">=</span> <span class="token punctuation">[</span>
   <span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">^https?:\/\/localhost(:\d*)?\/.*$</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">,</span>
   <span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">^https?:\/\/([\w-]+\.)*w3schools\.com(:\d*)?\/.*$</span><span class="token regex-delimiter">/</span></span>
@@ -491,9 +493,25 @@ const ALLOWED_REFERER = [
 
 <span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'fetch'</span><span class="token punctuation">,</span> <span class="token parameter">event</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
   event<span class="token punctuation">.</span><span class="token function">respondWith</span><span class="token punctuation">(</span><span class="token function">handle</span><span class="token punctuation">(</span>event<span class="token punctuation">.</span>request<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span>
-
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<ol>
+<li class="lvl-3">
+<p>创建cloudflare workers并复制粘贴以上代码</p>
+</li>
+</ol>
+<p>网上一堆教程，随便看一个吧。</p>
+<p><a target="_blank" rel="noopener" href="https://www.cxyzjd.com/article/qq_22903531/109544730">CloudFlare的Worker免费部署服务_Jum的博客-程序员宅基地_cloudflare worker - 程序员宅基地</a></p>
+<ol start="2">
+<li class="lvl-3">
+<p>修改参数，主要时refer改成你的网站，这里的正则你大概能看懂怎么改，注意把 . 换成 \. 就行了。然后修改密码，主要是方式被滥用。</p>
+</li>
+<li class="lvl-3">
+<p>修改你的网址，使其带上SHA-1加密。比如你的workers绑定的域名是 <a target="_blank" rel="noopener" href="http://w3schools.com">w3schools.com</a> ，你想反代的网址是 <a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js">https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js</a> ，你的密码是 123456 。找一个可以SHA-1加密的工具（比如网站 <a target="_blank" rel="noopener" href="http://www.metools.info/code/c22.html">SHA1在线加密、校验工具-ME2在线工具</a> ），然后复制 url+你的密码 （对应于上面的例子就是 /npm/jquery@3.2.1/dist/jquery.min.js123456 ），得到密文 （对应于上面的例子就是 371388c8eafe02c8876f67abe1d170b920218881 ）。这时重新组合你的新的请求的host+url为： <a target="_blank" rel="noopener" href="https://xn--workers-l45kx16aosjm31g/%E5%AF%86%E6%96%87/%E5%8E%9Furl">https://你的workers域名/密文/原url</a> (对应于上面的例子就是 <a target="_blank" rel="noopener" href="https://w3schools.com/371388c8eafe02c8876f67abe1d170b920218881/npm/jquery@3.2.1/dist/jquery.min.js">https://w3schools.com/371388c8eafe02c8876f67abe1d170b920218881/npm/jquery@3.2.1/dist/jquery.min.js</a> )。</p>
+</li>
+<li class="lvl-3">
+<p>在你的网站中替换这个网址就OK啦！</p>
+</li>
+</ol>
 
                 
             </div>
@@ -520,7 +538,7 @@ const ALLOWED_REFERER = [
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://www.430074.xyz/posts/reverse-proxy.html">https://www.430074.xyz/posts/reverse-proxy.html</a>
+                    <a href="https://www.430074.xyz/posts/workers-jsdeliver.html">https://www.430074.xyz/posts/workers-jsdeliver.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -831,7 +849,7 @@ const ALLOWED_REFERER = [
                 <i class="far fa-dot-circle"></i>&nbsp;本篇
             </div>
             <div class="card">
-                <a href="/posts/reverse-proxy.html">
+                <a href="/posts/workers-jsdeliver.html">
                     <div class="card-image">
                         
                         
