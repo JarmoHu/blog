@@ -6,7 +6,7 @@
   <link href="https://www.430074.xyz/atom.xml" rel="self"/>
   
   <link href="https://www.430074.xyz/"/>
-  <updated>2022-04-11T07:49:54.756Z</updated>
+  <updated>2022-05-22T03:33:04.059Z</updated>
   <id>https://www.430074.xyz/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Cloudflare workers 反代 jsdeliver并套上CDN</title>
+    <link href="https://www.430074.xyz/posts/reverse-proxy.html"/>
+    <id>https://www.430074.xyz/posts/reverse-proxy.html</id>
+    <published>2022-05-22T02:44:43.000Z</published>
+    <updated>2022-05-22T03:33:04.059Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre class=&quot;line-numbers language-javascript&quot; data-language=&quot;javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;//</summary>
+        
+      
+    
+    
+    
+    <category term="编程，建站" scheme="https://www.430074.xyz/categories/%E7%BC%96%E7%A8%8B%EF%BC%8C%E5%BB%BA%E7%AB%99/"/>
+    
+    
+    <category term="编程" scheme="https://www.430074.xyz/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+    <category term="网络" scheme="https://www.430074.xyz/tags/%E7%BD%91%E7%BB%9C/"/>
+    
+    <category term="建站" scheme="https://www.430074.xyz/tags/%E5%BB%BA%E7%AB%99/"/>
+    
+  </entry>
   
   <entry>
     <title>lumerical + python API 使用教程</title>
@@ -51,7 +80,7 @@
     <link href="https://www.430074.xyz/posts/EssayWriting.html"/>
     <id>https://www.430074.xyz/posts/EssayWriting.html</id>
     <published>2022-04-08T07:37:02.000Z</published>
-    <updated>2022-04-25T08:43:22.024Z</updated>
+    <updated>2022-04-27T14:55:53.037Z</updated>
     
     
       
