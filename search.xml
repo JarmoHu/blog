@@ -43,22 +43,6 @@
       </tags>
   </entry>
   <entry>
-    <title>lumerical + python API 使用教程</title>
-    <url>//posts/lumercialpy.html</url>
-    <content><![CDATA[<p>本教程由本人所在团队所著，请前往教程主页观看。</p>
-<p><strong>教程主页：</strong> <span class="exturl" data-url="aHR0cHM6Ly9waG90b25pYy1haS1jb21tdW5pY2F0aW9uLmdpdGh1Yi5pby9sdW1lcmljYWwtcHl0aG9uLXNjcmlwdC8jLw==">Document<i class="fa fa-external-link-alt"></i></span></p>
-<p><strong>团队主页：</strong> <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL1Bob3RvbmljLUFJLUNvbW11bmljYXRpb24=">Photonic-AI-Communication · GitHub<i class="fa fa-external-link-alt"></i></span></p>
-]]></content>
-      <categories>
-        <category>科研</category>
-        <category>仿真</category>
-      </categories>
-      <tags>
-        <tag>科研</tag>
-        <tag>仿真</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>//posts/hello-world.html</url>
     <content><![CDATA[<p>Welcome to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo<i class="fa fa-external-link-alt"></i></span>! This is your very first post. Check <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv">documentation<i class="fa fa-external-link-alt"></i></span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=">troubleshooting<i class="fa fa-external-link-alt"></i></span> or you can ask me on <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==">GitHub<i class="fa fa-external-link-alt"></i></span>.</p>
@@ -79,6 +63,22 @@
 ]]></content>
   </entry>
   <entry>
+    <title>lumerical + python API 使用教程</title>
+    <url>//posts/lumercialpy.html</url>
+    <content><![CDATA[<p>本教程由本人所在团队所著，请前往教程主页观看。</p>
+<p><strong>教程主页：</strong> <span class="exturl" data-url="aHR0cHM6Ly9waG90b25pYy1haS1jb21tdW5pY2F0aW9uLmdpdGh1Yi5pby9sdW1lcmljYWwtcHl0aG9uLXNjcmlwdC8jLw==">Document<i class="fa fa-external-link-alt"></i></span></p>
+<p><strong>团队主页：</strong> <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL1Bob3RvbmljLUFJLUNvbW11bmljYXRpb24=">Photonic-AI-Communication · GitHub<i class="fa fa-external-link-alt"></i></span></p>
+]]></content>
+      <categories>
+        <category>科研</category>
+        <category>仿真</category>
+      </categories>
+      <tags>
+        <tag>科研</tag>
+        <tag>仿真</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>读书笔记 ——《社会性动物》思维导图</title>
     <url>//posts/shehuixingdongwu.html</url>
     <content><![CDATA[<p>《社会性动物》第 12 版，第 5 章：大众传播、宣传与说服。本书该章节部分给我带来了很大的启发和帮助，有助于我们今后尝试去表达自己的观点，以及尝试去避免自己陷于非理性的说服。</p>
@@ -90,21 +90,6 @@
       </categories>
       <tags>
         <tag>读书</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>导波光学学习笔记（开坑了）</title>
-    <url>//posts/wgtheory.html</url>
-    <content><![CDATA[<p>本系列主要是针对网上没有针对导波光学比较深入的探讨，华科本科生学习的光纤也只是对圆形光纤的特性进行简单分析，没有从电磁场，激励源以及复杂波导的的角度进行分析。本学习笔记主要参考如下书籍，内容非常多，可能要写很久。</p>
-<p>Collin, R. E. <em>Field Theory of Guided Waves</em>. (Wiley-IEEE Press, 1990).</p>
-]]></content>
-      <categories>
-        <category>科研</category>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>科研</tag>
-        <tag>导播光学</tag>
       </tags>
   </entry>
   <entry>
@@ -235,6 +220,21 @@
       </tags>
   </entry>
   <entry>
+    <title>导波光学学习笔记（开坑了）</title>
+    <url>//posts/wgtheory.html</url>
+    <content><![CDATA[<p>本系列主要是针对网上没有针对导波光学比较深入的探讨，华科本科生学习的光纤也只是对圆形光纤的特性进行简单分析，没有从电磁场，激励源以及复杂波导的的角度进行分析。本学习笔记主要参考如下书籍，内容非常多，可能要写很久。</p>
+<p>Collin, R. E. <em>Field Theory of Guided Waves</em>. (Wiley-IEEE Press, 1990).</p>
+]]></content>
+      <categories>
+        <category>科研</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>科研</tag>
+        <tag>导播光学</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Cloudflare workers 反代 jsdeliver 并套上 CDN</title>
     <url>//posts/workers-jsdeliver.html</url>
     <content><![CDATA[<h2 id="1、前言"><a href="#1、前言" class="headerlink" title="1、前言"></a>1、前言</h2><p>自从 cdn.jsdelivr.net 被 qiang 了之后，很多网站都无法正常访问。目前比较受欢迎的解决方法是用其镜像网址代替，比如 gcore.jsdelivr.net， cf.jsdelivr.net 和 fastly.jsdelivr.net。其中 fastly.jsdelivr.net 由于大陆解析的服务器在日本所以延迟较低，但是丢包较大，而 gcore.jsdelivr.net 和 cf.jsdelivr.net 延迟和丢包都不理想。并且，由于某些原因，这些镜像服务并不能保证以后一直可以使用。</p>
@@ -306,7 +306,7 @@
 <h3 id="3-2-修改参数。"><a href="#3-2-修改参数。" class="headerlink" title="3.2 修改参数。"></a>3.2 修改参数。</h3><p>1、修改 ALLOWED_REFERER 常量，里面包含了可以使用本服务的域名列表。按照模板，修改成自己的域名。同时 ALLOW_NO_ORIGIN = true 是表示允许无 referer 访问本服务，比如直接浏览器打开。若是对 Referer 有疑问，可参考：<span class="exturl" data-url="aHR0cHM6Ly93d3cucnVhbnlpZmVuZy5jb20vYmxvZy8yMDE5LzA2L2h0dHAtcmVmZXJlci5odG1s">HTTP Referer 教程 - 阮一峰的网络日志<i class="fa fa-external-link-alt"></i></span>。</p>
 <p>2、修改密码 MYSECRET，这里的密码是用来加密网址的，因为 Referer 可以伪造，所以为了避免他人用你的服务干自己的事情，所以需要密码进行加密。</p>
 <h3 id="3-3-获得加密请求网址"><a href="#3-3-获得加密请求网址" class="headerlink" title="3.3 获得加密请求网址"></a>3.3 获得加密请求网址</h3><p>1、假设 workers 绑定的域名是 w3schools.com ，密码是 123456 ，想要反代的网址是<span class="exturl" data-url="aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L25wbS9qcXVlcnlAMy4yLjEvZGlzdC9qcXVlcnkubWluLmpz"> https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js<i class="fa fa-external-link-alt"></i></span> 。</p>
-<p>2、获得带加密的明文，为 url.path + 密码，如上则是 /npm/<span class="exturl" data-url="bWFpbHRvOiYjMTA2OyYjMTEzOyYjMTE3OyYjMTAxOyYjeDcyOyYjeDc5OyYjNjQ7JiN4MzM7JiM0NjsmI3gzMjsmI3gyZTsmI3gzMTs=">jquery@3.2.1<i class="fa fa-external-link-alt"></i></span>/dist/jquery.min.js123456 。获得该字符串的 SHA-1 编码，比如可以通过这个网站：<span class="exturl" data-url="aHR0cDovL3d3dy5tZXRvb2xzLmluZm8vY29kZS9jMjIuaHRtbA==">SHA1 在线加密、校验工具 - ME2 在线工具<i class="fa fa-external-link-alt"></i></span> 。得到密文 371388c8eafe02c8876f67abe1d170b920218881。</p>
+<p>2、获得带加密的明文，为 url.path + 密码，如上则是 /npm/<span class="exturl" data-url="bWFpbHRvOiYjeDZhOyYjeDcxOyYjeDc1OyYjMTAxOyYjeDcyOyYjeDc5OyYjNjQ7JiN4MzM7JiN4MmU7JiM1MDsmIzQ2OyYjNDk7">jquery@3.2.1<i class="fa fa-external-link-alt"></i></span>/dist/jquery.min.js123456 。获得该字符串的 SHA-1 编码，比如可以通过这个网站：<span class="exturl" data-url="aHR0cDovL3d3dy5tZXRvb2xzLmluZm8vY29kZS9jMjIuaHRtbA==">SHA1 在线加密、校验工具 - ME2 在线工具<i class="fa fa-external-link-alt"></i></span> 。得到密文 371388c8eafe02c8876f67abe1d170b920218881。</p>
 <p>3、生成新的请求网址：你的域名 + / 密文 + 原 url.path。如上文则是 <span class="exturl" data-url="aHR0cHM6Ly93M3NjaG9vbHMuY29tLzM3MTM4OGM4ZWFmZTAyYzg4NzZmNjdhYmUxZDE3MGI5MjAyMTg4ODEvbnBtL2pxdWVyeUAzLjIuMS9kaXN0L2pxdWVyeS5taW4uanM=">https://w3schools.com/371388c8eafe02c8876f67abe1d170b920218881/npm/jquery@3.2.1/dist/jquery.min.js<i class="fa fa-external-link-alt"></i></span> 。然后在网站中替换为该地址即可。</p>
 ]]></content>
       <categories>
