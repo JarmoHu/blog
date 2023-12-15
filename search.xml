@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>论文写作经验</title>
+    <url>//posts/EssayWriting.html</url>
+    <content><![CDATA[<h2 id="写作目的"><a href="#写作目的" class="headerlink" title="写作目的"></a>写作目的</h2><p>原来的写作目的是记录在第一次修改英语论文中的经验和教训。</p>
+<p>现在的写作目的是统一收集一些有帮助写作的一些资料，希望能帮助大家。原因是在写作过程中收集资料，发现我遇到的问题几乎所有人都遇到过。</p>
+<blockquote>
+<p>我为痛苦生活开出的第二味药是，尽可能从你们自身的经验获得知识，尽量别从其他人成功或失败的经验中广泛地吸取教训，不管他们是古人还是今人。这味药肯定能保证你们过上痛苦的生活，取得二流的成就。<br><strong>—— 查理。芒格 在哈佛学校毕业典礼上的演讲</strong></p>
+</blockquote>
+<span id="more"></span>
+<h2 id="文章结构方面"><a href="#文章结构方面" class="headerlink" title="文章结构方面"></a>文章结构方面</h2><h3 id="1-了解你的审稿人和编辑"><a href="#1-了解你的审稿人和编辑" class="headerlink" title="1. 了解你的审稿人和编辑"></a>1. 了解你的审稿人和编辑</h3><p>首先，你要知道你的领域里有哪些小同行。他们可能来自你的<strong>参考文献</strong>，或者来自你平时阅读的<strong>综述类文章</strong>。注意，有些大牛可能不会亲自去审稿，可能会交给手下的博士和博士后来进行审稿。其中的差别在于，大牛可能更加关注你的方案的创新性，而手下人亲自做过你这个方向，所以更加关注实现细节。</p>
+<p>你的文章对于他们来说不能太难。他们大多对该领域的相关研究有一个整体的认识，但是对其中细节也只是了解一部分。对于非本行业领域，他们可能还不如一个本科生。同时，他们平时工作很忙，不太可能会死磕你的文章看不懂的地方。所以，<strong>对于本领域综述要简略的介绍，对于涉及到本工作的细节要详细的描述，对于其他领域的知识务必要生动形象的描述</strong>。</p>
+<p><strong>你的同学和你的老师是你最好的实验对象</strong>。这个时候，可以试试和你的同学和老师讲述你的工作。你的导师往往有非常丰富的审稿经验，他们会提出一些审稿人常问的问题。你的同学，往往可以扮演一个外行的角色，以防编辑选择了一个稍微外行的审稿人。</p>
+<p>参考文献要尽可能地全面的引用一到两篇他们的工作，毕竟谁会介意自己的被引数 + 1 呢！</p>
+<p>另外，也要考虑一下审稿人的心情，这个毕竟是一个无偿付出的事情。有的审稿人义务审稿是为了在编辑那里混个脸熟，有的就是发给学生去审稿。这里推荐两篇文章：</p>
+<ol>
+<li><p>做学术期刊的审稿人是怎样的体验？- 知乎<br><span class="exturl" data-url="aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzM4ODgxNTQ1">https://www.zhihu.com/question/38881545<i class="fa fa-external-link-alt"></i></span></p>
+</li>
+<li><p>IOP 审稿指南：<br><span class="exturl" data-url="aHR0cHM6Ly9jaGluYS5pb3BwdWJsaXNoaW5nLm9yZy93cC1jb250ZW50L3VwbG9hZHMvMjAyMC8wMS9SZXZpZXdlci1ndWlkZS5wZGY=">https://china.ioppublishing.org/wp-content/uploads/2020/01/Reviewer-guide.pdf<i class="fa fa-external-link-alt"></i></span></p>
+</li>
+</ol>
+<h3 id="2-想清楚你这项工作的意义"><a href="#2-想清楚你这项工作的意义" class="headerlink" title="2. 想清楚你这项工作的意义"></a>2. 想清楚你这项工作的意义</h3><p>你为什么做这个工作，真实答案是：“这个行业热门”、“这个好做”、“导师让我做的” 等等，但是你得说服编辑你的文章的意义。</p>
+<p>首先你要想一下，<strong>你的工作相对于前人有什么不同，这些不同导致了效果上有什么差别，这些差别可以带来什么意义，以及你的方法的有什么应用场景</strong>？或者，你觉得自己的工作很有新意，为某领域提供了新的思路也是可以的。</p>
+<p>在这个问题上，切记方法本身不是意义，效果和应用价值才是意义。哪怕你的方法里闪光点满满，但是效果一般，只能说这个方法不适用于这个工作。<strong>只有先拿出了好的效果，大家才会有兴趣研究你的方法</strong>。</p>
+<h3 id="3-结构"><a href="#3-结构" class="headerlink" title="3. 结构"></a>3. 结构</h3><p>最简单的文章结构分为 4 个部分：** 摘要 (Abstract)，引言 (Introduction)，正文 (Body)，结论 (Conclusion)**。这个结构分别满足读者不同的需求：摘要的目的是为了使读者在不阅读全文的情况下就能够及时获取文章中的重要的信息；引言的目的就是解释你做这项研究的意义以及强调你的文章的亮点和结构；正文就是来描述工作。结论就是总结工作的成果和意义，顺便讨论和展望一下。这些部分的写作纲要可以参考这篇文章（这篇文章太详细了，我都不想再多写了）：<span class="exturl" data-url="aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC85MjA0ODU5MQ==">https://zhuanlan.zhihu.com/p/92048591<i class="fa fa-external-link-alt"></i></span></p>
+<p>这里我想强调一个问题，就是文章是为了服务于读者的，所以这些结构仅仅只是一个建议。我们需要合理的安排每个章节的内容，让读者读起来更加的顺畅。所以在安排文章内容时，我们需要先从一个宏观的角度来描述本工作，然后再分开来讲每一个部分。同时，在描述一些方法或者算法时，最好能结合案例一起来讲，这样可以减少读者理解抽象概念的难度，也降低了你的写作难度。</p>
+<h2 id="英语表达"><a href="#英语表达" class="headerlink" title="英语表达"></a>英语表达</h2><p>参考以下这些资料吧，我感觉我想写的就这些了：</p>
+<ul>
+<li><p>如何提高学术方面的英语水平，尤其是论文写作？ - 知乎<br><span class="exturl" data-url="aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzI5NTE5NTEz">https://www.zhihu.com/question/29519513<i class="fa fa-external-link-alt"></i></span></p>
+</li>
+<li><p>曼彻斯特大学学术短语银行：<br><span class="exturl" data-url="aHR0cHM6Ly93d3cucGhyYXNlYmFuay5tYW5jaGVzdGVyLmFjLnVrLw==">https://www.phrasebank.manchester.ac.uk/<i class="fa fa-external-link-alt"></i></span></p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>科研</category>
+        <category>写作</category>
+      </categories>
+      <tags>
+        <tag>写作</tag>
+        <tag>科研</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>lumerical + python API 使用教程</title>
+    <url>//posts/lumercialpy.html</url>
+    <content><![CDATA[<p>本教程由本人所在团队所著，请前往教程主页观看。</p>
+<p><strong>教程主页：</strong> <span class="exturl" data-url="aHR0cHM6Ly9waG90b25pYy1haS1jb21tdW5pY2F0aW9uLmdpdGh1Yi5pby9sdW1lcmljYWwtcHl0aG9uLXNjcmlwdC8jLw==">Document<i class="fa fa-external-link-alt"></i></span></p>
+<p><strong>团队主页：</strong> <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL1Bob3RvbmljLUFJLUNvbW11bmljYXRpb24=">Photonic-AI-Communication · GitHub<i class="fa fa-external-link-alt"></i></span></p>
+]]></content>
+      <categories>
+        <category>科研</category>
+        <category>仿真</category>
+      </categories>
+      <tags>
+        <tag>科研</tag>
+        <tag>仿真</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>//posts/hello-world.html</url>
+    <content><![CDATA[<p>Welcome to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo<i class="fa fa-external-link-alt"></i></span>! This is your very first post. Check <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv">documentation<i class="fa fa-external-link-alt"></i></span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=">troubleshooting<i class="fa fa-external-link-alt"></i></span> or you can ask me on <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==">GitHub<i class="fa fa-external-link-alt"></i></span>.</p>
+<span id="more"></span>
+
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s">Writing<i class="fa fa-external-link-alt"></i></span></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=">Server<i class="fa fa-external-link-alt"></i></span></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s">Generating<i class="fa fa-external-link-alt"></i></span></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s">Deployment<i class="fa fa-external-link-alt"></i></span></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>读书笔记 ——《社会性动物》思维导图</title>
+    <url>//posts/shehuixingdongwu.html</url>
+    <content><![CDATA[<p>《社会性动物》第 12 版，第 5 章：大众传播、宣传与说服。本书该章节部分给我带来了很大的启发和帮助，有助于我们今后尝试去表达自己的观点，以及尝试去避免自己陷于非理性的说服。</p>
+<p>长期更新地址：<span class="exturl" data-url="aHR0cDovL25hb3R1LmJhaWR1LmNvbS9maWxlL2Y3NjVlZDIzNGYzYWI2ODIzNTc0NTY5YmVkMzM5ZTMxP3Rva2VuPTAwMGQ0ZmVlNzljMTA0ZDA=">百度脑图<i class="fa fa-external-link-alt"></i></span></p>
+<p><img data-src="https://b2.430074.xyz/430074/%E7%A4%BE%E4%BC%9A%E6%80%A7%E5%8A%A8%E7%89%A9%EF%BC%88%E7%AC%AC12%E7%89%88%EF%BC%89.png"></p>
+]]></content>
+      <categories>
+        <category>阅读</category>
+      </categories>
+      <tags>
+        <tag>读书</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>导波光学学习笔记（开坑了）</title>
+    <url>//posts/wgtheory.html</url>
+    <content><![CDATA[<p>本系列主要是针对网上没有针对导波光学比较深入的探讨，华科本科生学习的光纤也只是对圆形光纤的特性进行简单分析，没有从电磁场，激励源以及复杂波导的的角度进行分析。本学习笔记主要参考如下书籍，内容非常多，可能要写很久。</p>
+<p>Collin, R. E. <em>Field Theory of Guided Waves</em>. (Wiley-IEEE Press, 1990).</p>
+]]></content>
+      <categories>
+        <category>科研</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>科研</tag>
+        <tag>导播光学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>科研资源分享</title>
+    <url>//posts/tools.html</url>
+    <content><![CDATA[<p>我本人曾经是个工具控，但是发现工具用的再好也不能替代人。所以就只选择一些简单的，比较实用的软件和科研网站。</p>
+<span id="more"></span>
+<h2 id="常用软件"><a href="#常用软件" class="headerlink" title="常用软件"></a>常用软件</h2><h3 id="Zotero"><a href="#Zotero" class="headerlink" title="Zotero"></a>Zotero</h3><p>下载地址： <span class="exturl" data-url="aHR0cHM6Ly93d3cuem90ZXJvLm9yZy8=">https://www.zotero.org<i class="fa fa-external-link-alt"></i></span></p>
+<p>如果你还在使用 endnote 或者 noteexpress，那么你和你的学校一定有一个很有钱。但是我仍旧推荐你试试免费的 Zotero。除了管理文献和生成引用目录外，相较于其他软件，我更喜欢它的这些功能：</p>
+<ol>
+<li><p>可以直接在 google 学术、Web of Science、知网、出版社官方网页导入文献信息，<strong>从网页识别的文献数据</strong>比从 PDF 文件里面识别到的<strong>更准确（特别是中文哦）</strong>。同时导入的时候还可以自动帮你<strong>下载 PDF 文件</strong>并重命名为第 2 条的格式哦。</p>
+</li>
+<li><p>配合 zotefile 还可以实现为<strong>自动</strong>将 PDF 文件重命名为” 作者 - 标题 - 期刊索引号 “，发给老师的时候也就会更加专业。</p>
+</li>
+<li><p>多级目录的文献管理（这里点名 endnote，至少我用的时候还只支持一级目录）。</p>
+</li>
+<li><p>导入时自动获取<strong>文章关键词</strong>作为<strong>标签 tag</strong>，然后左下角有一个 tag 列表，可以直接搜索标签。</p>
+</li>
+<li><p>配合插件 <strong>Jasminum</strong> 和浏览器<strong>知网 PDF 下载器</strong>可以实现对知网的完美支持。该插件可以直接从知网页面获取准确的文献数据，还可以解决中文名字姓氏在前名字在后的排版问题，如下图。同时知网硕博论文是可以直接下载 PDF 的，但是没有目录。而这个插件可以给下载的 PDF 添加目录。<img data-src="https://b2.430074.xyz/430074/tools/Picture1.png">相关资源：</p>
+<p><span class="exturl" data-url="aHR0cHM6Ly9ncmVhc3lmb3JrLm9yZy96aC1DTi9zY3JpcHRzLzM4OTM0My0lRTQlQjglQUQlRTUlOUIlQkQlRTclOUYlQTUlRTclQkQlOTFjbmtpJUU3JUExJTk1JUU1JThEJTlBJUU4JUFFJUJBJUU2JTk2JTg3cGRmJUU0JUI4JThCJUU4JUJEJUJE">中国知网 CNKI 硕博论文 PDF 下载<i class="fa fa-external-link-alt"></i></span></p>
+</li>
+<li><p>支持一个组共享文献目录，但是不支持共享 PDF 文件。</p>
+</li>
+<li><p>支持一键导出 <strong>选中文献</strong> <strong>指定格式</strong>的引用 到剪切板，然后随便粘贴。</p>
+</li>
+<li><p>安装 <strong><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3JldG9ycXVlcmUvem90ZXJvLWJldHRlci1iaWJ0ZXg=">better-bibtex<i class="fa fa-external-link-alt"></i></span></strong> 后可以生成 latex 标签，然后可以一键将选中文献保存为 latex 文献管理格式文件。更多用法我也不会，因为我不用 latex，但是别人用了之后赞不绝口。<br>插件官网：<span class="exturl" data-url="aHR0cHM6Ly9yZXRvcnF1ZS5yZS96b3Rlcm8tYmV0dGVyLWJpYnRleC8=">Better BibTeX for Zotero :: Better BibTeX for Zotero<i class="fa fa-external-link-alt"></i></span></p>
+</li>
+</ol>
+<p>更多更清晰的教程请参阅： <span class="exturl" data-url="aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC80NTIzOTMwMjQ=">https://zhuanlan.zhihu.com/p/452393024<i class="fa fa-external-link-alt"></i></span></p>
+<h3 id="Grammarly"><a href="#Grammarly" class="headerlink" title="Grammarly"></a>Grammarly</h3><p>著名的英语文章<strong>语法问题检查工具</strong>，付费版甚至还可以优化语气、表达等问题。这里建议直接下载 word 版插件，当然，你要是用 latex 我也没办法。</p>
+<p><img data-src="https://b2.430074.xyz/430074/tools/Picture2.png"></p>
+<h2 id="网站分享"><a href="#网站分享" class="headerlink" title="网站分享"></a>网站分享</h2><h3 id="资源下载"><a href="#资源下载" class="headerlink" title="资源下载"></a>资源下载</h3><ol>
+<li><p><strong>RuTracker</strong>：<br>俄罗斯最全的软件论坛，记得带好网页翻译软件。里面各种工程破解软件相当全面比如我常用的 COMSOL、Lumerical、ANSYS、AutoCAD、Solidworks<br>网站链接： <span class="exturl" data-url="aHR0cHM6Ly9ydXRyYWNrZXIub3JnL2ZvcnVtL2luZGV4LnBocA==">RuTracker.org<i class="fa fa-external-link-alt"></i></span> <img data-src="https://b2.430074.xyz/430074/tools/Picture3.png"> 像这种论坛式的网站还有这些，欢迎大家补充： <span class="exturl" data-url="aHR0cHM6Ly80cGRhLnRvLw==">https://4pda.to/<i class="fa fa-external-link-alt"></i></span> <span class="exturl" data-url="aHR0cHM6Ly9mb3J1bS50dXRzNHlvdS5jb20v">https://forum.tuts4you.com/<i class="fa fa-external-link-alt"></i></span> <span class="exturl" data-url="aHR0cHM6Ly93d3cuNTJwb2ppZS5jbi8=">https://www.52pojie.cn/<i class="fa fa-external-link-alt"></i></span></p>
+</li>
+<li><p>423down 破解软件下载站<br>有很多实用的破解软件，基本上已经够用了。<br>网站链接： <span class="exturl" data-url="aHR0cHM6Ly93d3cuNDIzZG93bi5jb20v">https://www.423down.com/<i class="fa fa-external-link-alt"></i></span> 其他还有一些差不多的网站： <span class="exturl" data-url="aHR0cHM6Ly93d3cubXB5aXQuY29tLw==">https://www.mpyit.com/<i class="fa fa-external-link-alt"></i></span> <span class="exturl" data-url="aHR0cHM6Ly93d3cuZ2h4aS5jb20v">https://www.ghxi.com/<i class="fa fa-external-link-alt"></i></span> <span class="exturl" data-url="aHR0cHM6Ly9scmVwYWNrcy5uZXQv">https://lrepacks.net/<i class="fa fa-external-link-alt"></i></span> <span class="exturl" data-url="aHR0cHM6Ly9jcmFja3N1cmwuY29tLw==">https://cracksurl.com/<i class="fa fa-external-link-alt"></i></span> <span class="exturl" data-url="aHR0cDovL3d3dy5uaXJzb2Z0Lm5ldC8=">http://www.nirsoft.net/<i class="fa fa-external-link-alt"></i></span></p>
+</li>
+</ol>
+<h3 id="文献下载"><a href="#文献下载" class="headerlink" title="文献下载"></a>文献下载</h3><ol>
+<li><p><strong>SooPAT 专利搜索</strong>：<br>中国专利，能搜能下，咱啥也不图。<br>网站链接： <span class="exturl" data-url="aHR0cDovL3d3dy5zb29wYXQuY29tLw==">http://www.soopat.com/<i class="fa fa-external-link-alt"></i></span></p>
+<p>其他的还有：<br>Google 专利： <span class="exturl" data-url="aHR0cHM6Ly9zY2hvbGFyLmdvb2dsZS5jb20v">https://scholar.google.com/<i class="fa fa-external-link-alt"></i></span> 欧洲专利局： <span class="exturl" data-url="aHR0cHM6Ly93b3JsZHdpZGUuZXNwYWNlbmV0LmNvbS8=">https://worldwide.espacenet.com/<i class="fa fa-external-link-alt"></i></span> 美国专利局： <span class="exturl" data-url="aHR0cHM6Ly93d3cudXNwdG8uZ292L3BhdGVudHMvc2VhcmNo">Search for patents | USPTO<i class="fa fa-external-link-alt"></i></span></p>
+</li>
+<li><p><strong>pqdtcn 国外学位论文检索</strong>：<br>是不是下载博士论文除了知网不知道用啥了呢，没错这个就是搜索和下载国外学位论文的好地方。<br>网站链接： <span class="exturl" data-url="aHR0cHM6Ly93d3cucHFkdGNuLmNvbS8=">https://www.pqdtcn.com/<i class="fa fa-external-link-alt"></i></span></p>
+</li>
+<li><p><strong>researchrabbit</strong> 相关文献分析网站<br>可以通过一篇或者几篇文献，找到相关度高的其他文献。我最近才发现这个网站，还在试用中。<br>网站链接： <span class="exturl" data-url="aHR0cHM6Ly93d3cucmVzZWFyY2hyYWJiaXQuYWkv">https://www.researchrabbit.ai/<i class="fa fa-external-link-alt"></i></span> 其他的还有： <span class="exturl" data-url="aHR0cHM6Ly93d3cuY29ubmVjdGVkcGFwZXJzLmNvbS8=">https://www.connectedpapers.com/<i class="fa fa-external-link-alt"></i></span></p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>科研</category>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>科研</tag>
+        <tag>工具</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>睡眠建议</title>
+    <url>//posts/why-we-sleep.html</url>
+    <content><![CDATA[<h2 id="一、引言"><a href="#一、引言" class="headerlink" title="一、引言"></a>一、引言</h2><p>当今社会越来越多的人存在着睡眠问题，而现代社会所带来的巨大的工作压力也使得我们需要更好的精神状态去面对。糟糕的睡眠不仅仅会导致身体上的疲惫，更会导致记忆力的减弱和寿命的降低。同时差劲的工作状态也往往会导致更低的工作效益以及更高的事故几率。这里本文基于书籍《我们为什么要睡觉？》（<span class="exturl" data-url="aHR0cHM6Ly9ib29rLmRvdWJhbi5jb20vc3ViamVjdC8zNTMzMjc3OC8=">链接<i class="fa fa-external-link-alt"></i></span>） 以及视频《# 你为什么睡不着觉？原因在这里！》（<span class="exturl" data-url="aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMTlnNDExRDdpYy8=">链接<i class="fa fa-external-link-alt"></i></span>），分别从生理和心理上的角度来讲解促进睡眠的方法。相对于原文中介绍了很多实验过程，本文集中于提炼重要的知识点，将睡眠过程和核心技巧展示给大家。</p>
+<span id="more"></span>
+<h2 id="二、睡眠节律"><a href="#二、睡眠节律" class="headerlink" title="二、睡眠节律"></a>二、睡眠节律</h2><p>睡眠可以简单的分为 3 个部分：清醒阶段、快速眼动阶段、非快速眼动阶段。这里简单介绍一下这些阶段对于大脑认知的作用：</p>
+<ul>
+<li><p><strong>清醒阶段</strong>：这时大脑主要用于接受信息，期间经历和不断了解你周围的世界。</p>
+</li>
+<li><p><strong>非快速眼动睡眠</strong>：去除掉不重要的记忆，将重要的短期记忆（存储于海马体）转化为长期记忆（存储于大脑皮层）。同时将海马体清空，用于接受新的知识，否则第二天学习能力将会下降。该阶段又可细分为 4 个阶段，其中 1、2 阶段被称为浅睡眠，3、4 阶段被称为深度睡眠。浅睡眠时较易醒来。</p>
+</li>
+<li><p><strong>快速眼动睡眠</strong>：大脑状态和清醒时差不多，一般伴随着梦境。该阶段将那些重要的记忆与先前的记忆进行集成，不仅能够增强记忆（包括陈述类记忆，如数学题，和程序类记忆，如弹钢琴），还能够在记忆的融合中激发创造力。</p>
+</li>
+</ul>
+<p>如下图所示，一个完整的睡眠过程会往复的经历这几个阶段，其中大约 90 分钟会重复一次，称为睡眠周期。一个睡眠周期往往会经历：浅睡眠 —— 深度睡眠 —— 浅睡眠 —— 梦境，这 4 个阶段。可以看到，在前半夜，非快速眼动睡眠往往占据主要，大脑在清空无效信息。后半夜至凌晨，快速眼动睡眠占据主要，此时大脑在强化重要信息，并于先前的记忆整合。所以有时早上多睡一会儿会使得前一天学习得内容掌握的更深刻。</p>
+<p><img data-src="https://b2.430074.xyz/430074/why_we_sleep/%E7%9D%A1%E7%9C%A0%E5%91%A8%E6%9C%9F.png"></p>
+<p>除此以外，人在清醒的时候也在为了睡眠做准备。比如，清醒的时候人会分泌腺苷，腺苷的积累会使得人感到疲惫，而睡眠时大脑会清除掉这些腺苷。还例如，褪黑素的分泌受到视觉的影响，在较亮的环境下，大脑中的松果体抑制褪黑素分泌，但是在较为昏暗的环境，会分泌褪黑素促进睡眠压力。人的自然情况下的睡眠生物钟是 24 小时 15 分钟，也就是比一天多一点点。但是在温度和太阳光的联合作用下可以加快这一过程，使之与一天契合。</p>
+<h2 id="三、人的一生的睡眠变化"><a href="#三、人的一生的睡眠变化" class="headerlink" title="三、人的一生的睡眠变化"></a>三、人的一生的睡眠变化</h2><ol>
+<li><p><strong>出生前</strong>：每天非清醒时间高达 22 个小时左右，已快速眼动睡眠为主，该阶段的睡眠对于大脑发育至关重要，且孕妇饮酒对于婴儿睡眠影响非常大。</p>
+</li>
+<li><p><strong>童年时期</strong>：睡眠呈现片段化，且非常容易被唤醒。期间快速眼动睡眠减少，非快速眼动睡眠增加。</p>
+</li>
+<li><p><strong>青春期</strong>：前期快速眼动睡眠较多，为大脑增加了非常多的连接。这一阶段大脑开始使用非快速眼动睡眠来完善和精简大脑规模，使得大脑更加的高效。且相对于童年时期的孩子不同，青春期的孩子睡眠节律会推后好几个小时，即天黑之后孩子们依然感到很精神，同时早上醒不来。这是自然的生理原因，且常常得不到家长和老师的认可。</p>
+</li>
+<li><p><strong>中年和老年</strong>：a、深度睡眠更少，睡眠质量低。b、睡眠碎片化，更加容易醒来。c、褪黑素的分泌会越来越早，会越来越早感觉到困倦。且有时白天的贪睡也会导致腺苷的下降，从而影响睡眠质量。所以一般建议老年人上午出门带墨镜，下午和晚上尽量把灯光开大一点从而推迟入睡时间。</p>
+</li>
+</ol>
+<h2 id="四、睡眠技巧"><a href="#四、睡眠技巧" class="headerlink" title="四、睡眠技巧"></a>四、睡眠技巧</h2><p>以下 12 条为书中提到的睡眠小知识，结合本人理解和实践加以丰富：</p>
+<ol>
+<li><p>坚持固定的睡眠和起床时间，且每天都这样。周末的补觉并不能弥补睡眠不足，且会使得周一更困。</p>
+</li>
+<li><p>锻炼长期可以提高睡眠质量，但短期可能又反效果。尽量每天尝试锻炼至少 30 分钟，但要在睡前 2-3 小时结束锻炼。我个人的经验是高强度运动需要提前 4 个小时结束。</p>
+</li>
+<li><p>避免咖啡因和尼古丁的摄入。咖啡因的代谢时间需要 8 个小时。而尼古丁会影响睡眠质量。</p>
+</li>
+<li><p>睡前避免喝酒精饮料。即使酒精可以让你放松，但是大量的酒精会使你失去快速眼动睡眠，使你处于睡眠较轻的阶段。也会导致夜间的呼吸问题。当酒精的影响消失时，也会导致半夜醒来。</p>
+</li>
+<li><p>深夜避免大量进食和喝饮料。简单的零食可以，但大量的进食会导致消化不良，干扰睡眠。晚上喝太多液体会导致频繁醒来上厕所。</p>
+</li>
+<li><p>尽量避免使用会延迟或破坏睡眠的药物。如心脏、血压和哮喘药物，以及一些治疗咳嗽、感冒或过敏的药物。</p>
+</li>
+<li><p>下午 3 点以后不要午睡，否则晚上可能不够困。</p>
+</li>
+<li><p>睡前放松，例如睡前阅读或者听音乐。我个人的经验是睡前提前 1 个半小时要停止工作。</p>
+</li>
+<li><p>睡前洗个热水澡。洗过澡后，体温的下降可能会使你感到困倦，洗澡也可以帮助你放松和缓解紧张，让你更容易入睡。我由于会在运动后洗澡，所以晚上睡觉前就会穿的很暖和然后泡个热水脚，上床时再穿凉快一点，效果很不错。</p>
+</li>
+<li><p>保持卧室幽暗凉爽，并且不要放置任何电子产品。注意睡觉时要凉快而不是太热。</p>
+</li>
+<li><p>白天多接触亮光，可以用非常亮的灯光帮助醒来。晚上注意要调暗室内灯光，促进褪黑素分泌。我个人的建议是电脑和软件能用夜间模式就用夜间模式，白天看的也舒服。然后电脑和手机调成护眼模式。我还有一个小米台灯，晚上提前一个小时调成暖色，极大地提高了我的睡眠质量。</p>
+</li>
+<li><p>如果晚上超过 20 分钟睡不着，且感到非常地焦虑。那么就起床进行一些轻松的活动，比如看书、听音乐、洗脚啥的。</p>
+</li>
+</ol>
+<p>书中关于失眠症的处理方案：失眠症多是由于不安和焦虑导致的，且越是睡不好就越焦虑。书中只提到了一条方案，就是强行忍着不睡觉，直到十分想睡之后才可以睡。这样就会逐渐提高睡眠信心。</p>
+<p>松明在视频里提到的 3 条睡眠小建议：</p>
+<ol>
+<li><p>每个人大脑对于未完成的事情的焦虑感不同，从而影响睡眠。松明建议：每天早上写下自己认为的最重要的一件工作和娱乐，睡前只要这两件事完成了就算今天达到目的了。</p>
+</li>
+<li><p>焦虑心：过于担心的事情。建议拿起纸和笔，将你的担心详细的写在纸上，可以很好的舒缓压力。</p>
+</li>
+<li><p>白天大脑疲劳：导致即使睡觉了但是早上还是觉得困。这里建议使用番茄钟工作法，让大脑多休息。同时也可以多做有氧运动。</p>
+</li>
+</ol>
+<h2 id="五、个人思考"><a href="#五、个人思考" class="headerlink" title="五、个人思考"></a>五、个人思考</h2><p>本文介绍了睡眠的规律以及提高睡眠效果的技巧。作为一个自高中以来就长期饱受失眠困扰的人，在学习并应用的这些方法的时候确实非常有效果。且就个人感觉，书中介绍的生理上的方式反而更加有用，也更加难以坚持。在这里希望大家能够有所学习，有所感悟。也希望大家能够提出宝贵的建议。</p>
+]]></content>
+      <categories>
+        <category>阅读</category>
+      </categories>
+      <tags>
+        <tag>读书</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Cloudflare workers 反代 jsdeliver 并套上 CDN</title>
+    <url>//posts/workers-jsdeliver.html</url>
+    <content><![CDATA[<h2 id="1、前言"><a href="#1、前言" class="headerlink" title="1、前言"></a>1、前言</h2><p>自从 cdn.jsdelivr.net 被 qiang 了之后，很多网站都无法正常访问。目前比较受欢迎的解决方法是用其镜像网址代替，比如 gcore.jsdelivr.net， cf.jsdelivr.net 和 fastly.jsdelivr.net。其中 fastly.jsdelivr.net 由于大陆解析的服务器在日本所以延迟较低，但是丢包较大，而 gcore.jsdelivr.net 和 cf.jsdelivr.net 延迟和丢包都不理想。并且，由于某些原因，这些镜像服务并不能保证以后一直可以使用。</p>
+<p>本文介绍了一种使用 cloudflare workers 反代 cdn.jsdelivr.net 的方法。workers 提供每天 10w 次的免费访问额度，对于一些小站非常好用，若是套上 CDN，则通过缓存可以大大减少请求数。同时本文提供的方案可以防止跨站和对 url 进行加密，从而避免自己的服务被人滥用。本人非专业程序员，js 和正则都是现学的，如果有改进方式，非常欢迎指导。</p>
+<span id="more"></span>
+<h2 id="2、代码"><a href="#2、代码" class="headerlink" title="2、代码"></a>2、代码</h2><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token comment">// 允许的 CORS 来源</span>
+<span class="token keyword">const</span> <span class="token constant">ALLOWED_REFERER</span> <span class="token operator">=</span> <span class="token punctuation">[</span>
+  <span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">^https?:\/\/localhost(:\d*)?\/.*$</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">,</span>
+  <span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">^https?:\/\/([\w-]+\.)*w3schools\.com(:\d*)?\/.*$</span><span class="token regex-delimiter">/</span></span>
+<span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token comment">// 是否允许所有无 Referer 请求</span>
+<span class="token keyword">const</span> <span class="token constant">ALLOW_NO_ORIGIN</span> <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+<span class="token comment">//输入你的密码，密码加在path后面做SHA-1运算</span>
+<span class="token keyword">const</span> <span class="token constant">MYSECRET</span> <span class="token operator">=</span> <span class="token string">"123456"</span><span class="token punctuation">;</span>
+
+
+<span class="token keyword">function</span> <span class="token function">validateReferer</span><span class="token punctuation">(</span><span class="token parameter">req</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> referer <span class="token operator">=</span> req<span class="token punctuation">.</span>headers<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">'Referer'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>referer<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">const</span> el <span class="token keyword">of</span> <span class="token constant">ALLOWED_REFERER</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>el<span class="token punctuation">.</span><span class="token function">exec</span><span class="token punctuation">(</span>referer<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token keyword">return</span> <span class="token constant">ALLOW_NO_ORIGIN</span><span class="token punctuation">;</span> <span class="token comment">// 是否拒绝所有无 Referer 请求</span>
+<span class="token punctuation">}</span>
+
+
+<span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">handle</span><span class="token punctuation">(</span><span class="token parameter">request</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">let</span> url <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">URL</span><span class="token punctuation">(</span>request<span class="token punctuation">.</span>url<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> acceptType <span class="token operator">=</span> request<span class="token punctuation">.</span>headers<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">'Accept'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> hash_request <span class="token operator">=</span> url<span class="token punctuation">.</span>pathname<span class="token punctuation">.</span><span class="token function">split</span><span class="token punctuation">(</span><span class="token string">"/"</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> path_real <span class="token operator">=</span> url<span class="token punctuation">.</span>pathname<span class="token punctuation">.</span><span class="token function">substring</span><span class="token punctuation">(</span>hash_request<span class="token punctuation">.</span>length <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">,</span> url<span class="token punctuation">.</span>pathname<span class="token punctuation">.</span>length<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  url<span class="token punctuation">.</span>hostname <span class="token operator">=</span> <span class="token string">"cdn.jsdelivr.net"</span><span class="token punctuation">;</span>
+  url<span class="token punctuation">.</span>pathname <span class="token operator">=</span> path_real<span class="token punctuation">;</span>
+
+  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span><span class="token punctuation">(</span><span class="token keyword">await</span> <span class="token function">validatePath</span><span class="token punctuation">(</span>hash_request<span class="token punctuation">,</span> path_real<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">Response</span><span class="token punctuation">(</span><span class="token string">'Error Hash'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">status</span><span class="token operator">:</span> <span class="token number">403</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span><span class="token punctuation">(</span><span class="token function">validateReferer</span><span class="token punctuation">(</span>request<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">Response</span><span class="token punctuation">(</span><span class="token string">'Blocked Host'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">status</span><span class="token operator">:</span> <span class="token number">403</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">return</span> <span class="token keyword">await</span> <span class="token function">fetch</span><span class="token punctuation">(</span>url<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">validatePath</span><span class="token punctuation">(</span><span class="token parameter">hash_request<span class="token punctuation">,</span> path_real</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> message <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">TextEncoder</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">encode</span><span class="token punctuation">(</span>path_real <span class="token operator">+</span> <span class="token constant">MYSECRET</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> myDigest <span class="token operator">=</span> <span class="token keyword">await</span> crypto<span class="token punctuation">.</span>subtle<span class="token punctuation">.</span><span class="token function">digest</span><span class="token punctuation">(</span><span class="token string">'SHA-1'</span><span class="token punctuation">,</span> message<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> hashArray <span class="token operator">=</span> Array<span class="token punctuation">.</span><span class="token function">from</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Uint8Array</span><span class="token punctuation">(</span>myDigest<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> hashHex <span class="token operator">=</span> hashArray<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token parameter">b</span> <span class="token operator">=&gt;</span> b<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token number">16</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">padStart</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token string">'0'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token string">''</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>hashHex <span class="token operator">==</span> hash_request<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+
+<span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'fetch'</span><span class="token punctuation">,</span> 
+<span class="token parameter">event</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  event<span class="token punctuation">.</span><span class="token function">respondWith</span><span class="token punctuation">(</span><span class="token function">handle</span><span class="token punctuation">(</span>event<span class="token punctuation">.</span>request<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="3、使用教程"><a href="#3、使用教程" class="headerlink" title="3、使用教程"></a>3、使用教程</h2><h3 id="3-1-创建一个cloudflare-workers"><a href="#3-1-创建一个cloudflare-workers" class="headerlink" title="3.1 创建一个cloudflare workers"></a>3.1 创建一个 cloudflare workers</h3><p>复制粘贴以上代码，建议绑定自己的域名，此处可参考网上其他教程。比如：<br> <span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzU4NjA2ODM0L2FydGljbGUvZGV0YWlscy8xMjQ2NzAyMTg=">CloudFlare Workers 设置使用自定义域名_一曲横笛的博客 - CSDN 博客_cloudflare workers 绑定自定义域名<i class="fa fa-external-link-alt"></i></span><br><span class="exturl" data-url="aHR0cHM6Ly93d3cuY3h5empkLmNvbS9hcnRpY2xlL3FxXzIyOTAzNTMxLzEwOTU0NDczMA==">CloudFlare 的 Worker 免费部署服务_Jum 的博客 - 程序员宅基地_cloudflare worker - 程序员宅基地<i class="fa fa-external-link-alt"></i></span></p>
+<h3 id="3-2-修改参数。"><a href="#3-2-修改参数。" class="headerlink" title="3.2 修改参数。"></a>3.2 修改参数。</h3><p>1、修改 ALLOWED_REFERER 常量，里面包含了可以使用本服务的域名列表。按照模板，修改成自己的域名。同时 ALLOW_NO_ORIGIN = true 是表示允许无 referer 访问本服务，比如直接浏览器打开。若是对 Referer 有疑问，可参考：<span class="exturl" data-url="aHR0cHM6Ly93d3cucnVhbnlpZmVuZy5jb20vYmxvZy8yMDE5LzA2L2h0dHAtcmVmZXJlci5odG1s">HTTP Referer 教程 - 阮一峰的网络日志<i class="fa fa-external-link-alt"></i></span>。</p>
+<p>2、修改密码 MYSECRET，这里的密码是用来加密网址的，因为 Referer 可以伪造，所以为了避免他人用你的服务干自己的事情，所以需要密码进行加密。</p>
+<h3 id="3-3-获得加密请求网址"><a href="#3-3-获得加密请求网址" class="headerlink" title="3.3 获得加密请求网址"></a>3.3 获得加密请求网址</h3><p>1、假设 workers 绑定的域名是 w3schools.com ，密码是 123456 ，想要反代的网址是<span class="exturl" data-url="aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L25wbS9qcXVlcnlAMy4yLjEvZGlzdC9qcXVlcnkubWluLmpz"> https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js<i class="fa fa-external-link-alt"></i></span> 。</p>
+<p>2、获得带加密的明文，为 url.path + 密码，如上则是 /npm/<span class="exturl" data-url="bWFpbHRvOiYjMTA2OyYjMTEzOyYjMTE3OyYjMTAxOyYjeDcyOyYjeDc5OyYjNjQ7JiN4MzM7JiM0NjsmI3gzMjsmI3gyZTsmI3gzMTs=">jquery@3.2.1<i class="fa fa-external-link-alt"></i></span>/dist/jquery.min.js123456 。获得该字符串的 SHA-1 编码，比如可以通过这个网站：<span class="exturl" data-url="aHR0cDovL3d3dy5tZXRvb2xzLmluZm8vY29kZS9jMjIuaHRtbA==">SHA1 在线加密、校验工具 - ME2 在线工具<i class="fa fa-external-link-alt"></i></span> 。得到密文 371388c8eafe02c8876f67abe1d170b920218881。</p>
+<p>3、生成新的请求网址：你的域名 + / 密文 + 原 url.path。如上文则是 <span class="exturl" data-url="aHR0cHM6Ly93M3NjaG9vbHMuY29tLzM3MTM4OGM4ZWFmZTAyYzg4NzZmNjdhYmUxZDE3MGI5MjAyMTg4ODEvbnBtL2pxdWVyeUAzLjIuMS9kaXN0L2pxdWVyeS5taW4uanM=">https://w3schools.com/371388c8eafe02c8876f67abe1d170b920218881/npm/jquery@3.2.1/dist/jquery.min.js<i class="fa fa-external-link-alt"></i></span> 。然后在网站中替换为该地址即可。</p>
+]]></content>
+      <categories>
+        <category>编程，建站</category>
+      </categories>
+      <tags>
+        <tag>编程</tag>
+        <tag>网络</tag>
+        <tag>建站</tag>
+      </tags>
+  </entry>
+</search>
