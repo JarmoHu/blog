@@ -321,12 +321,12 @@
   <entry>
     <title>GRE 隧道为 BT 下载伪装地址</title>
     <url>//posts/gre_aria2.html</url>
-    <content><![CDATA[<h1 id="GRE隧道为BT下载伪装地址"><a href="#GRE隧道为BT下载伪装地址" class="headerlink" title="GRE隧道为BT下载伪装地址"></a>GRE 隧道为 BT 下载伪装地址</h1><h2 id="一、前言"><a href="#一、前言" class="headerlink" title="一、前言"></a>一、前言</h2><p>书接上文，终于抢到 BUYVM 最便宜的了，现在只有 1G 带宽，开始等待 3 个月后升级 10G。谢谢大佬的补货机器人，太棒了。<br><span class="exturl" data-url="aHR0cHM6Ly9ob3N0bG9jLmNvbS90aHJlYWQtMTI0NzE1My0xLTEuaHRtbA==">https://hostloc.com/thread-1247153-1-1.html<i class="fa fa-external-link-alt"></i></span></p>
-<p>总所周知，Buyvm 带宽大（后期 10Gb/s），不限流量，卢森堡抗 DCMA，无限 ipv6，可挂载存储块是其优点。但是 Buyvm 也存在一定的缺点，比如存储块 IO 较低，存储块价格较高。很多人喜欢用 buyvm 下载一些最新的 BT 影视资源，可以规避 DCMA。但是一个月 至少 3.5 刀服务器 + 至少 1.5 刀存储块 的价格让很多人望而却步。同时，我自已有一台 online 的 4.5 欧服务器，大硬盘，高 IO 但是不抗 DCMA。</p>
-<p>这里我提出一个想法，利用 buyvm 当作 online 服务器的外置网关，实现中转下载最新媒体内容。该方案为 online 上搭建 aria2 服务器，online 和 buyvm 通过 GRE 隧道链接。在下载时，外网看到的下载服务器 ip 是 buyvm 的 ip，从而实现了抗 DCMA。</p>
+    <content><![CDATA[<h1 id="GRE隧道为BT下载伪装地址"><a href="#GRE隧道为BT下载伪装地址" class="headerlink" title="GRE隧道为BT下载伪装地址"></a>GRE 隧道为 BT 下载伪装地址</h1><h2 id="一、前言"><a href="#一、前言" class="headerlink" title="一、前言"></a>一、前言</h2><p>总所周知，Buyvm 服务器优点有：<strong>带宽大（10Gb/s），不限流量，卢森堡抗 DMCA，无限 ipv6，可挂载存储块</strong>。但是 Buyvm 缺点为<strong>存储块 IO 较低且价格较高</strong>。buyvm 做 BT 下载器每月至少 3.5 刀服务器 + 1.5 刀存储块还是太贵了。同时我还有一台大带宽、大硬盘、高 IO 但是不抗 DMCA 的 online 服务器。</p>
+<p>这里我们将 buyvm 当作 online 服务器的下载网关，中转下载 BT，从而实现 online 下载但是抗 DMCA 的效果。同时我们还提出了多台 online 下载服务器共用一台 buyvm 网关，共平摊 3.5 刀成本，共享 10G 带宽。</p>
 <span id="more"></span>
+<p>该方案为 online 上搭建 aria2 服务器，online 和 buyvm 通过 GRE 隧道链接。在下载时，外网看到的下载服务器 ip 是 buyvm 的 ip，从而实现了抗 DMCA。多个服务器共享时，每台服务分配 ipv4 的不同端口，和一个独立的 IPV6。</p>
 <p>相较于 wireguard 方案，本方案好处是对性能的要求大大降低，可同时支持多台服务器。本方案的第二个优点是，通过对 linux 五表四链的详细研究，online 服务器无需全局转发，只需转发 aria2 流量即可。本方案的缺点是，GRE 隧道无加密，但是大部分人的 TCP 和 UDP 都在 TLS 层或者应用层进行了加密，所谓无需担心。本方案第二个缺点是，需要用户对 linux 的网络配置有一定的了解，我后面会专门讲一下怎么配置。</p>
-<p>同时我们还提出了多台服务器共用一台 buyvm 作为中转的想法，毕竟 10G 带宽谁都用不完，希望通过该方案平摊 buyvm 成本。多个人共享 ipv4 的不同端口，和一个独立的 IPV6。<br>是的，我写这篇文章的目的就是为了宣传一下，希望大家提提建议，或者有需要的话加入我。</p>
+<p>是的，我写这篇文章的目的就是为了宣传一下，希望大家提提建议，或者有需要的话加入我。</p>
 <h2 id="二、教程"><a href="#二、教程" class="headerlink" title="二、教程"></a>二、教程</h2><h3 id="2-1-安装aria2"><a href="#2-1-安装aria2" class="headerlink" title="2.1 安装aria2"></a>2.1 安装 aria2</h3><p>你们可以自行安装，也可以通过如下脚本：</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">wget</span> <span class="token parameter variable">-N</span> <span class="token string">"https://raw.githubusercontent.com/JarmoHu/aria2.sh/master/aria2.sh"</span> <span class="token operator">&amp;&amp;</span> <span class="token function">chmod</span> +x aria2.sh <span class="token operator">&amp;&amp;</span> ./aria2.sh<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>该脚本基于 P3terx 大佬的脚本修改，主要是大佬好像一直不更新了，我就改了改下载源。</p>
