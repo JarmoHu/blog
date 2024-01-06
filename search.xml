@@ -1,48 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>论文写作经验</title>
-    <url>//posts/EssayWriting.html</url>
-    <content><![CDATA[<h2 id="写作目的"><a href="#写作目的" class="headerlink" title="写作目的"></a>写作目的</h2><p>原来的写作目的是记录在第一次修改英语论文中的经验和教训。</p>
-<p>现在的写作目的是统一收集一些有帮助写作的一些资料，希望能帮助大家。原因是在写作过程中收集资料，发现我遇到的问题几乎所有人都遇到过。</p>
-<blockquote>
-<p>我为痛苦生活开出的第二味药是，尽可能从你们自身的经验获得知识，尽量别从其他人成功或失败的经验中广泛地吸取教训，不管他们是古人还是今人。这味药肯定能保证你们过上痛苦的生活，取得二流的成就。<br><strong>—— 查理。芒格 在哈佛学校毕业典礼上的演讲</strong></p>
-</blockquote>
-<span id="more"></span>
-<h2 id="文章结构方面"><a href="#文章结构方面" class="headerlink" title="文章结构方面"></a>文章结构方面</h2><h3 id="1-了解你的审稿人和编辑"><a href="#1-了解你的审稿人和编辑" class="headerlink" title="1. 了解你的审稿人和编辑"></a>1. 了解你的审稿人和编辑</h3><p>首先，你要知道你的领域里有哪些小同行。他们可能来自你的<strong>参考文献</strong>，或者来自你平时阅读的<strong>综述类文章</strong>。注意，有些大牛可能不会亲自去审稿，可能会交给手下的博士和博士后来进行审稿。其中的差别在于，大牛可能更加关注你的方案的创新性，而手下人亲自做过你这个方向，所以更加关注实现细节。</p>
-<p>你的文章对于他们来说不能太难。他们大多对该领域的相关研究有一个整体的认识，但是对其中细节也只是了解一部分。对于非本行业领域，他们可能还不如一个本科生。同时，他们平时工作很忙，不太可能会死磕你的文章看不懂的地方。所以，<strong>对于本领域综述要简略的介绍，对于涉及到本工作的细节要详细的描述，对于其他领域的知识务必要生动形象的描述</strong>。</p>
-<p><strong>你的同学和你的老师是你最好的实验对象</strong>。这个时候，可以试试和你的同学和老师讲述你的工作。你的导师往往有非常丰富的审稿经验，他们会提出一些审稿人常问的问题。你的同学，往往可以扮演一个外行的角色，以防编辑选择了一个稍微外行的审稿人。</p>
-<p>参考文献要尽可能地全面的引用一到两篇他们的工作，毕竟谁会介意自己的被引数 + 1 呢！</p>
-<p>另外，也要考虑一下审稿人的心情，这个毕竟是一个无偿付出的事情。有的审稿人义务审稿是为了在编辑那里混个脸熟，有的就是发给学生去审稿。这里推荐两篇文章：</p>
-<ol>
-<li><p>做学术期刊的审稿人是怎样的体验？- 知乎<br><span class="exturl" data-url="aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzM4ODgxNTQ1">https://www.zhihu.com/question/38881545<i class="fa fa-external-link-alt"></i></span></p>
-</li>
-<li><p>IOP 审稿指南：<br><span class="exturl" data-url="aHR0cHM6Ly9jaGluYS5pb3BwdWJsaXNoaW5nLm9yZy93cC1jb250ZW50L3VwbG9hZHMvMjAyMC8wMS9SZXZpZXdlci1ndWlkZS5wZGY=">https://china.ioppublishing.org/wp-content/uploads/2020/01/Reviewer-guide.pdf<i class="fa fa-external-link-alt"></i></span></p>
-</li>
-</ol>
-<h3 id="2-想清楚你这项工作的意义"><a href="#2-想清楚你这项工作的意义" class="headerlink" title="2. 想清楚你这项工作的意义"></a>2. 想清楚你这项工作的意义</h3><p>你为什么做这个工作，真实答案是：“这个行业热门”、“这个好做”、“导师让我做的” 等等，但是你得说服编辑你的文章的意义。</p>
-<p>首先你要想一下，<strong>你的工作相对于前人有什么不同，这些不同导致了效果上有什么差别，这些差别可以带来什么意义，以及你的方法的有什么应用场景</strong>？或者，你觉得自己的工作很有新意，为某领域提供了新的思路也是可以的。</p>
-<p>在这个问题上，切记方法本身不是意义，效果和应用价值才是意义。哪怕你的方法里闪光点满满，但是效果一般，只能说这个方法不适用于这个工作。<strong>只有先拿出了好的效果，大家才会有兴趣研究你的方法</strong>。</p>
-<h3 id="3-结构"><a href="#3-结构" class="headerlink" title="3. 结构"></a>3. 结构</h3><p>最简单的文章结构分为 4 个部分：** 摘要 (Abstract)，引言 (Introduction)，正文 (Body)，结论 (Conclusion)**。这个结构分别满足读者不同的需求：摘要的目的是为了使读者在不阅读全文的情况下就能够及时获取文章中的重要的信息；引言的目的就是解释你做这项研究的意义以及强调你的文章的亮点和结构；正文就是来描述工作。结论就是总结工作的成果和意义，顺便讨论和展望一下。这些部分的写作纲要可以参考这篇文章（这篇文章太详细了，我都不想再多写了）：<span class="exturl" data-url="aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC85MjA0ODU5MQ==">https://zhuanlan.zhihu.com/p/92048591<i class="fa fa-external-link-alt"></i></span></p>
-<p>这里我想强调一个问题，就是文章是为了服务于读者的，所以这些结构仅仅只是一个建议。我们需要合理的安排每个章节的内容，让读者读起来更加的顺畅。所以在安排文章内容时，我们需要先从一个宏观的角度来描述本工作，然后再分开来讲每一个部分。同时，在描述一些方法或者算法时，最好能结合案例一起来讲，这样可以减少读者理解抽象概念的难度，也降低了你的写作难度。</p>
-<h2 id="英语表达"><a href="#英语表达" class="headerlink" title="英语表达"></a>英语表达</h2><p>参考以下这些资料吧，我感觉我想写的就这些了：</p>
-<ul>
-<li><p>如何提高学术方面的英语水平，尤其是论文写作？ - 知乎<br><span class="exturl" data-url="aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzI5NTE5NTEz">https://www.zhihu.com/question/29519513<i class="fa fa-external-link-alt"></i></span></p>
-</li>
-<li><p>曼彻斯特大学学术短语银行：<br><span class="exturl" data-url="aHR0cHM6Ly93d3cucGhyYXNlYmFuay5tYW5jaGVzdGVyLmFjLnVrLw==">https://www.phrasebank.manchester.ac.uk/<i class="fa fa-external-link-alt"></i></span></p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>科研</category>
-        <category>写作</category>
-      </categories>
-      <tags>
-        <tag>写作</tag>
-        <tag>科研</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>GRE 隧道为 BT 下载伪装地址</title>
     <url>//posts/gre_aria2.html</url>
     <content><![CDATA[<h1 id="GRE隧道为BT下载伪装地址"><a href="#GRE隧道为BT下载伪装地址" class="headerlink" title="GRE隧道为BT下载伪装地址"></a>GRE 隧道为 BT 下载伪装地址</h1><h2 id="一、前言"><a href="#一、前言" class="headerlink" title="一、前言"></a>一、前言</h2><p>总所周知，Buyvm 服务器优点有：<strong>带宽大（10Gb/s），不限流量，卢森堡抗 DMCA，无限 ipv6，可挂载存储块</strong>。但是 Buyvm 缺点为<strong>存储块 IO 较低且价格较高</strong>。buyvm 做 BT 下载器每月至少 3.5 刀服务器 + 1.5 刀存储块还是太贵了。同时我还有一台大带宽、大硬盘、高 IO 但是不抗 DMCA 的 online 服务器。</p>
@@ -190,6 +148,48 @@ async-dns-server=8.8.8.8, 1.1.1.1<span aria-hidden="true" class="line-numbers-ro
       </tags>
   </entry>
   <entry>
+    <title>论文写作经验</title>
+    <url>//posts/EssayWriting.html</url>
+    <content><![CDATA[<h2 id="写作目的"><a href="#写作目的" class="headerlink" title="写作目的"></a>写作目的</h2><p>原来的写作目的是记录在第一次修改英语论文中的经验和教训。</p>
+<p>现在的写作目的是统一收集一些有帮助写作的一些资料，希望能帮助大家。原因是在写作过程中收集资料，发现我遇到的问题几乎所有人都遇到过。</p>
+<blockquote>
+<p>我为痛苦生活开出的第二味药是，尽可能从你们自身的经验获得知识，尽量别从其他人成功或失败的经验中广泛地吸取教训，不管他们是古人还是今人。这味药肯定能保证你们过上痛苦的生活，取得二流的成就。<br><strong>—— 查理。芒格 在哈佛学校毕业典礼上的演讲</strong></p>
+</blockquote>
+<span id="more"></span>
+<h2 id="文章结构方面"><a href="#文章结构方面" class="headerlink" title="文章结构方面"></a>文章结构方面</h2><h3 id="1-了解你的审稿人和编辑"><a href="#1-了解你的审稿人和编辑" class="headerlink" title="1. 了解你的审稿人和编辑"></a>1. 了解你的审稿人和编辑</h3><p>首先，你要知道你的领域里有哪些小同行。他们可能来自你的<strong>参考文献</strong>，或者来自你平时阅读的<strong>综述类文章</strong>。注意，有些大牛可能不会亲自去审稿，可能会交给手下的博士和博士后来进行审稿。其中的差别在于，大牛可能更加关注你的方案的创新性，而手下人亲自做过你这个方向，所以更加关注实现细节。</p>
+<p>你的文章对于他们来说不能太难。他们大多对该领域的相关研究有一个整体的认识，但是对其中细节也只是了解一部分。对于非本行业领域，他们可能还不如一个本科生。同时，他们平时工作很忙，不太可能会死磕你的文章看不懂的地方。所以，<strong>对于本领域综述要简略的介绍，对于涉及到本工作的细节要详细的描述，对于其他领域的知识务必要生动形象的描述</strong>。</p>
+<p><strong>你的同学和你的老师是你最好的实验对象</strong>。这个时候，可以试试和你的同学和老师讲述你的工作。你的导师往往有非常丰富的审稿经验，他们会提出一些审稿人常问的问题。你的同学，往往可以扮演一个外行的角色，以防编辑选择了一个稍微外行的审稿人。</p>
+<p>参考文献要尽可能地全面的引用一到两篇他们的工作，毕竟谁会介意自己的被引数 + 1 呢！</p>
+<p>另外，也要考虑一下审稿人的心情，这个毕竟是一个无偿付出的事情。有的审稿人义务审稿是为了在编辑那里混个脸熟，有的就是发给学生去审稿。这里推荐两篇文章：</p>
+<ol>
+<li><p>做学术期刊的审稿人是怎样的体验？- 知乎<br><span class="exturl" data-url="aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzM4ODgxNTQ1">https://www.zhihu.com/question/38881545<i class="fa fa-external-link-alt"></i></span></p>
+</li>
+<li><p>IOP 审稿指南：<br><span class="exturl" data-url="aHR0cHM6Ly9jaGluYS5pb3BwdWJsaXNoaW5nLm9yZy93cC1jb250ZW50L3VwbG9hZHMvMjAyMC8wMS9SZXZpZXdlci1ndWlkZS5wZGY=">https://china.ioppublishing.org/wp-content/uploads/2020/01/Reviewer-guide.pdf<i class="fa fa-external-link-alt"></i></span></p>
+</li>
+</ol>
+<h3 id="2-想清楚你这项工作的意义"><a href="#2-想清楚你这项工作的意义" class="headerlink" title="2. 想清楚你这项工作的意义"></a>2. 想清楚你这项工作的意义</h3><p>你为什么做这个工作，真实答案是：“这个行业热门”、“这个好做”、“导师让我做的” 等等，但是你得说服编辑你的文章的意义。</p>
+<p>首先你要想一下，<strong>你的工作相对于前人有什么不同，这些不同导致了效果上有什么差别，这些差别可以带来什么意义，以及你的方法的有什么应用场景</strong>？或者，你觉得自己的工作很有新意，为某领域提供了新的思路也是可以的。</p>
+<p>在这个问题上，切记方法本身不是意义，效果和应用价值才是意义。哪怕你的方法里闪光点满满，但是效果一般，只能说这个方法不适用于这个工作。<strong>只有先拿出了好的效果，大家才会有兴趣研究你的方法</strong>。</p>
+<h3 id="3-结构"><a href="#3-结构" class="headerlink" title="3. 结构"></a>3. 结构</h3><p>最简单的文章结构分为 4 个部分：** 摘要 (Abstract)，引言 (Introduction)，正文 (Body)，结论 (Conclusion)**。这个结构分别满足读者不同的需求：摘要的目的是为了使读者在不阅读全文的情况下就能够及时获取文章中的重要的信息；引言的目的就是解释你做这项研究的意义以及强调你的文章的亮点和结构；正文就是来描述工作。结论就是总结工作的成果和意义，顺便讨论和展望一下。这些部分的写作纲要可以参考这篇文章（这篇文章太详细了，我都不想再多写了）：<span class="exturl" data-url="aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC85MjA0ODU5MQ==">https://zhuanlan.zhihu.com/p/92048591<i class="fa fa-external-link-alt"></i></span></p>
+<p>这里我想强调一个问题，就是文章是为了服务于读者的，所以这些结构仅仅只是一个建议。我们需要合理的安排每个章节的内容，让读者读起来更加的顺畅。所以在安排文章内容时，我们需要先从一个宏观的角度来描述本工作，然后再分开来讲每一个部分。同时，在描述一些方法或者算法时，最好能结合案例一起来讲，这样可以减少读者理解抽象概念的难度，也降低了你的写作难度。</p>
+<h2 id="英语表达"><a href="#英语表达" class="headerlink" title="英语表达"></a>英语表达</h2><p>参考以下这些资料吧，我感觉我想写的就这些了：</p>
+<ul>
+<li><p>如何提高学术方面的英语水平，尤其是论文写作？ - 知乎<br><span class="exturl" data-url="aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzI5NTE5NTEz">https://www.zhihu.com/question/29519513<i class="fa fa-external-link-alt"></i></span></p>
+</li>
+<li><p>曼彻斯特大学学术短语银行：<br><span class="exturl" data-url="aHR0cHM6Ly93d3cucGhyYXNlYmFuay5tYW5jaGVzdGVyLmFjLnVrLw==">https://www.phrasebank.manchester.ac.uk/<i class="fa fa-external-link-alt"></i></span></p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>科研</category>
+        <category>写作</category>
+      </categories>
+      <tags>
+        <tag>写作</tag>
+        <tag>科研</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>//posts/hello-world.html</url>
     <content><![CDATA[<p>Welcome to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo<i class="fa fa-external-link-alt"></i></span>! This is your very first post. Check <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv">documentation<i class="fa fa-external-link-alt"></i></span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=">troubleshooting<i class="fa fa-external-link-alt"></i></span> or you can ask me on <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==">GitHub<i class="fa fa-external-link-alt"></i></span>.</p>
@@ -223,6 +223,20 @@ async-dns-server=8.8.8.8, 1.1.1.1<span aria-hidden="true" class="line-numbers-ro
       <tags>
         <tag>科研</tag>
         <tag>仿真</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>读书笔记 ——《社会性动物》思维导图</title>
+    <url>//posts/shehuixingdongwu.html</url>
+    <content><![CDATA[<p>《社会性动物》第 12 版，第 5 章：大众传播、宣传与说服。本书该章节部分给我带来了很大的启发和帮助，有助于我们今后尝试去表达自己的观点，以及尝试去避免自己陷于非理性的说服。</p>
+<p>长期更新地址：<span class="exturl" data-url="aHR0cDovL25hb3R1LmJhaWR1LmNvbS9maWxlL2Y3NjVlZDIzNGYzYWI2ODIzNTc0NTY5YmVkMzM5ZTMxP3Rva2VuPTAwMGQ0ZmVlNzljMTA0ZDA=">百度脑图<i class="fa fa-external-link-alt"></i></span></p>
+<p><img data-src="https://b2.430074.xyz/430074/%E7%A4%BE%E4%BC%9A%E6%80%A7%E5%8A%A8%E7%89%A9%EF%BC%88%E7%AC%AC12%E7%89%88%EF%BC%89.png"></p>
+]]></content>
+      <categories>
+        <category>阅读</category>
+      </categories>
+      <tags>
+        <tag>读书</tag>
       </tags>
   </entry>
   <entry>
@@ -277,20 +291,6 @@ async-dns-server=8.8.8.8, 1.1.1.1<span aria-hidden="true" class="line-numbers-ro
       <tags>
         <tag>科研</tag>
         <tag>工具</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>读书笔记 ——《社会性动物》思维导图</title>
-    <url>//posts/shehuixingdongwu.html</url>
-    <content><![CDATA[<p>《社会性动物》第 12 版，第 5 章：大众传播、宣传与说服。本书该章节部分给我带来了很大的启发和帮助，有助于我们今后尝试去表达自己的观点，以及尝试去避免自己陷于非理性的说服。</p>
-<p>长期更新地址：<span class="exturl" data-url="aHR0cDovL25hb3R1LmJhaWR1LmNvbS9maWxlL2Y3NjVlZDIzNGYzYWI2ODIzNTc0NTY5YmVkMzM5ZTMxP3Rva2VuPTAwMGQ0ZmVlNzljMTA0ZDA=">百度脑图<i class="fa fa-external-link-alt"></i></span></p>
-<p><img data-src="https://b2.430074.xyz/430074/%E7%A4%BE%E4%BC%9A%E6%80%A7%E5%8A%A8%E7%89%A9%EF%BC%88%E7%AC%AC12%E7%89%88%EF%BC%89.png"></p>
-]]></content>
-      <categories>
-        <category>阅读</category>
-      </categories>
-      <tags>
-        <tag>读书</tag>
       </tags>
   </entry>
   <entry>
@@ -453,7 +453,7 @@ async-dns-server=8.8.8.8, 1.1.1.1<span aria-hidden="true" class="line-numbers-ro
 <h3 id="3-2-修改参数。"><a href="#3-2-修改参数。" class="headerlink" title="3.2 修改参数。"></a>3.2 修改参数。</h3><p>1、修改 ALLOWED_REFERER 常量，里面包含了可以使用本服务的域名列表。按照模板，修改成自己的域名。同时 ALLOW_NO_ORIGIN = true 是表示允许无 referer 访问本服务，比如直接浏览器打开。若是对 Referer 有疑问，可参考：<span class="exturl" data-url="aHR0cHM6Ly93d3cucnVhbnlpZmVuZy5jb20vYmxvZy8yMDE5LzA2L2h0dHAtcmVmZXJlci5odG1s">HTTP Referer 教程 - 阮一峰的网络日志<i class="fa fa-external-link-alt"></i></span>。</p>
 <p>2、修改密码 MYSECRET，这里的密码是用来加密网址的，因为 Referer 可以伪造，所以为了避免他人用你的服务干自己的事情，所以需要密码进行加密。</p>
 <h3 id="3-3-获得加密请求网址"><a href="#3-3-获得加密请求网址" class="headerlink" title="3.3 获得加密请求网址"></a>3.3 获得加密请求网址</h3><p>1、假设 workers 绑定的域名是 w3schools.com ，密码是 123456 ，想要反代的网址是<span class="exturl" data-url="aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L25wbS9qcXVlcnlAMy4yLjEvZGlzdC9qcXVlcnkubWluLmpz"> https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js<i class="fa fa-external-link-alt"></i></span> 。</p>
-<p>2、获得带加密的明文，为 url.path + 密码，如上则是 /npm/<span class="exturl" data-url="bWFpbHRvOiYjMTA2OyYjeDcxOyYjeDc1OyYjeDY1OyYjeDcyOyYjeDc5OyYjeDQwOyYjNTE7JiM0NjsmIzUwOyYjNDY7JiM0OTs=">jquery@3.2.1<i class="fa fa-external-link-alt"></i></span>/dist/jquery.min.js123456 。获得该字符串的 SHA-1 编码，比如可以通过这个网站：<span class="exturl" data-url="aHR0cDovL3d3dy5tZXRvb2xzLmluZm8vY29kZS9jMjIuaHRtbA==">SHA1 在线加密、校验工具 - ME2 在线工具<i class="fa fa-external-link-alt"></i></span> 。得到密文 371388c8eafe02c8876f67abe1d170b920218881。</p>
+<p>2、获得带加密的明文，为 url.path + 密码，如上则是 /npm/<span class="exturl" data-url="bWFpbHRvOiYjMTA2OyYjeDcxOyYjeDc1OyYjMTAxOyYjeDcyOyYjeDc5OyYjNjQ7JiN4MzM7JiN4MmU7JiM1MDsmI3gyZTsmIzQ5Ow==">jquery@3.2.1<i class="fa fa-external-link-alt"></i></span>/dist/jquery.min.js123456 。获得该字符串的 SHA-1 编码，比如可以通过这个网站：<span class="exturl" data-url="aHR0cDovL3d3dy5tZXRvb2xzLmluZm8vY29kZS9jMjIuaHRtbA==">SHA1 在线加密、校验工具 - ME2 在线工具<i class="fa fa-external-link-alt"></i></span> 。得到密文 371388c8eafe02c8876f67abe1d170b920218881。</p>
 <p>3、生成新的请求网址：你的域名 + / 密文 + 原 url.path。如上文则是 <span class="exturl" data-url="aHR0cHM6Ly93M3NjaG9vbHMuY29tLzM3MTM4OGM4ZWFmZTAyYzg4NzZmNjdhYmUxZDE3MGI5MjAyMTg4ODEvbnBtL2pxdWVyeUAzLjIuMS9kaXN0L2pxdWVyeS5taW4uanM=">https://w3schools.com/371388c8eafe02c8876f67abe1d170b920218881/npm/jquery@3.2.1/dist/jquery.min.js<i class="fa fa-external-link-alt"></i></span> 。然后在网站中替换为该地址即可。</p>
 ]]></content>
       <categories>
