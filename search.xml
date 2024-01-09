@@ -46,8 +46,8 @@
 <span class="token function">sleep</span> <span class="token number">3</span>
 
 <span class="token comment"># 这里将外部51000-52000端口DNAT转发到下载机。当外部IP访问中转机这些端口（如1.1.1.1:51000），实际访问的是下载机的内网IP（192.168.100.2:51000）</span>
-iptables <span class="token parameter variable">-t</span> nat <span class="token parameter variable">-A</span> PREROUTING <span class="token parameter variable">-d</span> <span class="token number">1.1</span>.1.1 <span class="token parameter variable">-p</span> tcp <span class="token parameter variable">-m</span> multiport <span class="token parameter variable">--dports</span> <span class="token number">51000</span>:52000 <span class="token parameter variable">-j</span> DNAT --to-destination <span class="token number">192.168</span>.100.2:51000:52000
-iptables <span class="token parameter variable">-t</span> nat <span class="token parameter variable">-A</span> PREROUTING <span class="token parameter variable">-d</span> <span class="token number">1.1</span>.1.1 <span class="token parameter variable">-p</span> udp <span class="token parameter variable">-m</span> multiport <span class="token parameter variable">--dports</span> <span class="token number">51000</span>:52000 <span class="token parameter variable">-j</span> DNAT --to-destination <span class="token number">192.168</span>.100.2:51000:52000
+iptables <span class="token parameter variable">-t</span> nat <span class="token parameter variable">-A</span> PREROUTING <span class="token parameter variable">-d</span> <span class="token number">1.1</span>.1.1 <span class="token parameter variable">-p</span> tcp <span class="token parameter variable">-m</span> multiport <span class="token parameter variable">--dports</span> <span class="token number">51000</span>:52000 <span class="token parameter variable">-j</span> DNAT --to-destination <span class="token number">192.168</span>.100.2:51000-52000
+iptables <span class="token parameter variable">-t</span> nat <span class="token parameter variable">-A</span> PREROUTING <span class="token parameter variable">-d</span> <span class="token number">1.1</span>.1.1 <span class="token parameter variable">-p</span> udp <span class="token parameter variable">-m</span> multiport <span class="token parameter variable">--dports</span> <span class="token number">51000</span>:52000 <span class="token parameter variable">-j</span> DNAT --to-destination <span class="token number">192.168</span>.100.2:51000-52000
 <span class="token comment"># 这里通过SNAT实现网关功能。即下载机发出的包，通过gre隧道来到中转机，此时中转机将源地址改为中转机的外部IP，实现IP伪装。</span>
 iptables <span class="token parameter variable">-t</span> nat <span class="token parameter variable">-A</span> POSTROUTING <span class="token parameter variable">-s</span> <span class="token number">192.168</span>.100.0/30 <span class="token parameter variable">-p</span> tcp <span class="token parameter variable">-j</span> SNAT --to-source <span class="token number">1.1</span>.1.1
 iptables <span class="token parameter variable">-t</span> nat <span class="token parameter variable">-A</span> POSTROUTING <span class="token parameter variable">-s</span> <span class="token number">192.168</span>.100.0/30 <span class="token parameter variable">-p</span> udp <span class="token parameter variable">-j</span> SNAT --to-source <span class="token number">1.1</span>.1.1
@@ -240,75 +240,6 @@ async-dns-server=8.8.8.8, 1.1.1.1<span aria-hidden="true" class="line-numbers-ro
       </tags>
   </entry>
   <entry>
-    <title>科研资源分享</title>
-    <url>//posts/tools.html</url>
-    <content><![CDATA[<p>我本人曾经是个工具控，但是发现工具用的再好也不能替代人。所以就只选择一些简单的，比较实用的软件和科研网站。</p>
-<span id="more"></span>
-<h2 id="常用软件"><a href="#常用软件" class="headerlink" title="常用软件"></a>常用软件</h2><h3 id="Zotero"><a href="#Zotero" class="headerlink" title="Zotero"></a>Zotero</h3><p>下载地址： <span class="exturl" data-url="aHR0cHM6Ly93d3cuem90ZXJvLm9yZy8=">https://www.zotero.org<i class="fa fa-external-link-alt"></i></span></p>
-<p>如果你还在使用 endnote 或者 noteexpress，那么你和你的学校一定有一个很有钱。但是我仍旧推荐你试试免费的 Zotero。除了管理文献和生成引用目录外，相较于其他软件，我更喜欢它的这些功能：</p>
-<ol>
-<li><p>可以直接在 google 学术、Web of Science、知网、出版社官方网页导入文献信息，<strong>从网页识别的文献数据</strong>比从 PDF 文件里面识别到的<strong>更准确（特别是中文哦）</strong>。同时导入的时候还可以自动帮你<strong>下载 PDF 文件</strong>并重命名为第 2 条的格式哦。</p>
-</li>
-<li><p>配合 zotefile 还可以实现为<strong>自动</strong>将 PDF 文件重命名为” 作者 - 标题 - 期刊索引号 “，发给老师的时候也就会更加专业。</p>
-</li>
-<li><p>多级目录的文献管理（这里点名 endnote，至少我用的时候还只支持一级目录）。</p>
-</li>
-<li><p>导入时自动获取<strong>文章关键词</strong>作为<strong>标签 tag</strong>，然后左下角有一个 tag 列表，可以直接搜索标签。</p>
-</li>
-<li><p>配合插件 <strong>Jasminum</strong> 和浏览器<strong>知网 PDF 下载器</strong>可以实现对知网的完美支持。该插件可以直接从知网页面获取准确的文献数据，还可以解决中文名字姓氏在前名字在后的排版问题，如下图。同时知网硕博论文是可以直接下载 PDF 的，但是没有目录。而这个插件可以给下载的 PDF 添加目录。<img data-src="https://b2.430074.xyz/430074/tools/Picture1.png">相关资源：</p>
-<p><span class="exturl" data-url="aHR0cHM6Ly9ncmVhc3lmb3JrLm9yZy96aC1DTi9zY3JpcHRzLzM4OTM0My0lRTQlQjglQUQlRTUlOUIlQkQlRTclOUYlQTUlRTclQkQlOTFjbmtpJUU3JUExJTk1JUU1JThEJTlBJUU4JUFFJUJBJUU2JTk2JTg3cGRmJUU0JUI4JThCJUU4JUJEJUJE">中国知网 CNKI 硕博论文 PDF 下载<i class="fa fa-external-link-alt"></i></span></p>
-</li>
-<li><p>支持一个组共享文献目录，但是不支持共享 PDF 文件。</p>
-</li>
-<li><p>支持一键导出 <strong>选中文献</strong> <strong>指定格式</strong>的引用 到剪切板，然后随便粘贴。</p>
-</li>
-<li><p>安装 <strong><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3JldG9ycXVlcmUvem90ZXJvLWJldHRlci1iaWJ0ZXg=">better-bibtex<i class="fa fa-external-link-alt"></i></span></strong> 后可以生成 latex 标签，然后可以一键将选中文献保存为 latex 文献管理格式文件。更多用法我也不会，因为我不用 latex，但是别人用了之后赞不绝口。<br>插件官网：<span class="exturl" data-url="aHR0cHM6Ly9yZXRvcnF1ZS5yZS96b3Rlcm8tYmV0dGVyLWJpYnRleC8=">Better BibTeX for Zotero :: Better BibTeX for Zotero<i class="fa fa-external-link-alt"></i></span></p>
-</li>
-</ol>
-<p>更多更清晰的教程请参阅： <span class="exturl" data-url="aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC80NTIzOTMwMjQ=">https://zhuanlan.zhihu.com/p/452393024<i class="fa fa-external-link-alt"></i></span></p>
-<h3 id="Grammarly"><a href="#Grammarly" class="headerlink" title="Grammarly"></a>Grammarly</h3><p>著名的英语文章<strong>语法问题检查工具</strong>，付费版甚至还可以优化语气、表达等问题。这里建议直接下载 word 版插件，当然，你要是用 latex 我也没办法。</p>
-<p><img data-src="https://b2.430074.xyz/430074/tools/Picture2.png"></p>
-<h2 id="网站分享"><a href="#网站分享" class="headerlink" title="网站分享"></a>网站分享</h2><h3 id="资源下载"><a href="#资源下载" class="headerlink" title="资源下载"></a>资源下载</h3><ol>
-<li><p><strong>RuTracker</strong>：<br>俄罗斯最全的软件论坛，记得带好网页翻译软件。里面各种工程破解软件相当全面比如我常用的 COMSOL、Lumerical、ANSYS、AutoCAD、Solidworks<br>网站链接： <span class="exturl" data-url="aHR0cHM6Ly9ydXRyYWNrZXIub3JnL2ZvcnVtL2luZGV4LnBocA==">RuTracker.org<i class="fa fa-external-link-alt"></i></span> <img data-src="https://b2.430074.xyz/430074/tools/Picture3.png"> 像这种论坛式的网站还有这些，欢迎大家补充： <span class="exturl" data-url="aHR0cHM6Ly80cGRhLnRvLw==">https://4pda.to/<i class="fa fa-external-link-alt"></i></span> <span class="exturl" data-url="aHR0cHM6Ly9mb3J1bS50dXRzNHlvdS5jb20v">https://forum.tuts4you.com/<i class="fa fa-external-link-alt"></i></span> <span class="exturl" data-url="aHR0cHM6Ly93d3cuNTJwb2ppZS5jbi8=">https://www.52pojie.cn/<i class="fa fa-external-link-alt"></i></span></p>
-</li>
-<li><p>423down 破解软件下载站<br>有很多实用的破解软件，基本上已经够用了。<br>网站链接： <span class="exturl" data-url="aHR0cHM6Ly93d3cuNDIzZG93bi5jb20v">https://www.423down.com/<i class="fa fa-external-link-alt"></i></span> 其他还有一些差不多的网站： <span class="exturl" data-url="aHR0cHM6Ly93d3cubXB5aXQuY29tLw==">https://www.mpyit.com/<i class="fa fa-external-link-alt"></i></span> <span class="exturl" data-url="aHR0cHM6Ly93d3cuZ2h4aS5jb20v">https://www.ghxi.com/<i class="fa fa-external-link-alt"></i></span> <span class="exturl" data-url="aHR0cHM6Ly9scmVwYWNrcy5uZXQv">https://lrepacks.net/<i class="fa fa-external-link-alt"></i></span> <span class="exturl" data-url="aHR0cHM6Ly9jcmFja3N1cmwuY29tLw==">https://cracksurl.com/<i class="fa fa-external-link-alt"></i></span> <span class="exturl" data-url="aHR0cDovL3d3dy5uaXJzb2Z0Lm5ldC8=">http://www.nirsoft.net/<i class="fa fa-external-link-alt"></i></span></p>
-</li>
-</ol>
-<h3 id="文献下载"><a href="#文献下载" class="headerlink" title="文献下载"></a>文献下载</h3><ol>
-<li><p><strong>SooPAT 专利搜索</strong>：<br>中国专利，能搜能下，咱啥也不图。<br>网站链接： <span class="exturl" data-url="aHR0cDovL3d3dy5zb29wYXQuY29tLw==">http://www.soopat.com/<i class="fa fa-external-link-alt"></i></span></p>
-<p>其他的还有：<br>Google 专利： <span class="exturl" data-url="aHR0cHM6Ly9zY2hvbGFyLmdvb2dsZS5jb20v">https://scholar.google.com/<i class="fa fa-external-link-alt"></i></span> 欧洲专利局： <span class="exturl" data-url="aHR0cHM6Ly93b3JsZHdpZGUuZXNwYWNlbmV0LmNvbS8=">https://worldwide.espacenet.com/<i class="fa fa-external-link-alt"></i></span> 美国专利局： <span class="exturl" data-url="aHR0cHM6Ly93d3cudXNwdG8uZ292L3BhdGVudHMvc2VhcmNo">Search for patents | USPTO<i class="fa fa-external-link-alt"></i></span></p>
-</li>
-<li><p><strong>pqdtcn 国外学位论文检索</strong>：<br>是不是下载博士论文除了知网不知道用啥了呢，没错这个就是搜索和下载国外学位论文的好地方。<br>网站链接： <span class="exturl" data-url="aHR0cHM6Ly93d3cucHFkdGNuLmNvbS8=">https://www.pqdtcn.com/<i class="fa fa-external-link-alt"></i></span></p>
-</li>
-<li><p><strong>researchrabbit</strong> 相关文献分析网站<br>可以通过一篇或者几篇文献，找到相关度高的其他文献。我最近才发现这个网站，还在试用中。<br>网站链接： <span class="exturl" data-url="aHR0cHM6Ly93d3cucmVzZWFyY2hyYWJiaXQuYWkv">https://www.researchrabbit.ai/<i class="fa fa-external-link-alt"></i></span> 其他的还有： <span class="exturl" data-url="aHR0cHM6Ly93d3cuY29ubmVjdGVkcGFwZXJzLmNvbS8=">https://www.connectedpapers.com/<i class="fa fa-external-link-alt"></i></span></p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>科研</category>
-        <category>工具</category>
-      </categories>
-      <tags>
-        <tag>科研</tag>
-        <tag>工具</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>导波光学学习笔记（开坑了）</title>
-    <url>//posts/wgtheory.html</url>
-    <content><![CDATA[<p>本系列主要是针对网上没有针对导波光学比较深入的探讨，华科本科生学习的光纤也只是对圆形光纤的特性进行简单分析，没有从电磁场，激励源以及复杂波导的的角度进行分析。本学习笔记主要参考如下书籍，内容非常多，可能要写很久。</p>
-<p>Collin, R. E. <em>Field Theory of Guided Waves</em>. (Wiley-IEEE Press, 1990).</p>
-]]></content>
-      <categories>
-        <category>科研</category>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>科研</tag>
-        <tag>导播光学</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>睡眠建议</title>
     <url>//posts/why-we-sleep.html</url>
     <content><![CDATA[<h2 id="一、引言"><a href="#一、引言" class="headerlink" title="一、引言"></a>一、引言</h2><p>当今社会越来越多的人存在着睡眠问题，而现代社会所带来的巨大的工作压力也使得我们需要更好的精神状态去面对。糟糕的睡眠不仅仅会导致身体上的疲惫，更会导致记忆力的减弱和寿命的降低。同时差劲的工作状态也往往会导致更低的工作效益以及更高的事故几率。这里本文基于书籍《我们为什么要睡觉？》（<span class="exturl" data-url="aHR0cHM6Ly9ib29rLmRvdWJhbi5jb20vc3ViamVjdC8zNTMzMjc3OC8=">链接<i class="fa fa-external-link-alt"></i></span>） 以及视频《# 你为什么睡不着觉？原因在这里！》（<span class="exturl" data-url="aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMTlnNDExRDdpYy8=">链接<i class="fa fa-external-link-alt"></i></span>），分别从生理和心理上的角度来讲解促进睡眠的方法。相对于原文中介绍了很多实验过程，本文集中于提炼重要的知识点，将睡眠过程和核心技巧展示给大家。</p>
@@ -379,6 +310,60 @@ async-dns-server=8.8.8.8, 1.1.1.1<span aria-hidden="true" class="line-numbers-ro
       </categories>
       <tags>
         <tag>读书</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>科研资源分享</title>
+    <url>//posts/tools.html</url>
+    <content><![CDATA[<p>我本人曾经是个工具控，但是发现工具用的再好也不能替代人。所以就只选择一些简单的，比较实用的软件和科研网站。</p>
+<span id="more"></span>
+<h2 id="常用软件"><a href="#常用软件" class="headerlink" title="常用软件"></a>常用软件</h2><h3 id="Zotero"><a href="#Zotero" class="headerlink" title="Zotero"></a>Zotero</h3><p>下载地址： <span class="exturl" data-url="aHR0cHM6Ly93d3cuem90ZXJvLm9yZy8=">https://www.zotero.org<i class="fa fa-external-link-alt"></i></span></p>
+<p>如果你还在使用 endnote 或者 noteexpress，那么你和你的学校一定有一个很有钱。但是我仍旧推荐你试试免费的 Zotero。除了管理文献和生成引用目录外，相较于其他软件，我更喜欢它的这些功能：</p>
+<ol>
+<li><p>可以直接在 google 学术、Web of Science、知网、出版社官方网页导入文献信息，<strong>从网页识别的文献数据</strong>比从 PDF 文件里面识别到的<strong>更准确（特别是中文哦）</strong>。同时导入的时候还可以自动帮你<strong>下载 PDF 文件</strong>并重命名为第 2 条的格式哦。</p>
+</li>
+<li><p>配合 zotefile 还可以实现为<strong>自动</strong>将 PDF 文件重命名为” 作者 - 标题 - 期刊索引号 “，发给老师的时候也就会更加专业。</p>
+</li>
+<li><p>多级目录的文献管理（这里点名 endnote，至少我用的时候还只支持一级目录）。</p>
+</li>
+<li><p>导入时自动获取<strong>文章关键词</strong>作为<strong>标签 tag</strong>，然后左下角有一个 tag 列表，可以直接搜索标签。</p>
+</li>
+<li><p>配合插件 <strong>Jasminum</strong> 和浏览器<strong>知网 PDF 下载器</strong>可以实现对知网的完美支持。该插件可以直接从知网页面获取准确的文献数据，还可以解决中文名字姓氏在前名字在后的排版问题，如下图。同时知网硕博论文是可以直接下载 PDF 的，但是没有目录。而这个插件可以给下载的 PDF 添加目录。<img data-src="https://b2.430074.xyz/430074/tools/Picture1.png">相关资源：</p>
+<p><span class="exturl" data-url="aHR0cHM6Ly9ncmVhc3lmb3JrLm9yZy96aC1DTi9zY3JpcHRzLzM4OTM0My0lRTQlQjglQUQlRTUlOUIlQkQlRTclOUYlQTUlRTclQkQlOTFjbmtpJUU3JUExJTk1JUU1JThEJTlBJUU4JUFFJUJBJUU2JTk2JTg3cGRmJUU0JUI4JThCJUU4JUJEJUJE">中国知网 CNKI 硕博论文 PDF 下载<i class="fa fa-external-link-alt"></i></span></p>
+</li>
+<li><p>支持一个组共享文献目录，但是不支持共享 PDF 文件。</p>
+</li>
+<li><p>支持一键导出 <strong>选中文献</strong> <strong>指定格式</strong>的引用 到剪切板，然后随便粘贴。</p>
+</li>
+<li><p>安装 <strong><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3JldG9ycXVlcmUvem90ZXJvLWJldHRlci1iaWJ0ZXg=">better-bibtex<i class="fa fa-external-link-alt"></i></span></strong> 后可以生成 latex 标签，然后可以一键将选中文献保存为 latex 文献管理格式文件。更多用法我也不会，因为我不用 latex，但是别人用了之后赞不绝口。<br>插件官网：<span class="exturl" data-url="aHR0cHM6Ly9yZXRvcnF1ZS5yZS96b3Rlcm8tYmV0dGVyLWJpYnRleC8=">Better BibTeX for Zotero :: Better BibTeX for Zotero<i class="fa fa-external-link-alt"></i></span></p>
+</li>
+</ol>
+<p>更多更清晰的教程请参阅： <span class="exturl" data-url="aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC80NTIzOTMwMjQ=">https://zhuanlan.zhihu.com/p/452393024<i class="fa fa-external-link-alt"></i></span></p>
+<h3 id="Grammarly"><a href="#Grammarly" class="headerlink" title="Grammarly"></a>Grammarly</h3><p>著名的英语文章<strong>语法问题检查工具</strong>，付费版甚至还可以优化语气、表达等问题。这里建议直接下载 word 版插件，当然，你要是用 latex 我也没办法。</p>
+<p><img data-src="https://b2.430074.xyz/430074/tools/Picture2.png"></p>
+<h2 id="网站分享"><a href="#网站分享" class="headerlink" title="网站分享"></a>网站分享</h2><h3 id="资源下载"><a href="#资源下载" class="headerlink" title="资源下载"></a>资源下载</h3><ol>
+<li><p><strong>RuTracker</strong>：<br>俄罗斯最全的软件论坛，记得带好网页翻译软件。里面各种工程破解软件相当全面比如我常用的 COMSOL、Lumerical、ANSYS、AutoCAD、Solidworks<br>网站链接： <span class="exturl" data-url="aHR0cHM6Ly9ydXRyYWNrZXIub3JnL2ZvcnVtL2luZGV4LnBocA==">RuTracker.org<i class="fa fa-external-link-alt"></i></span> <img data-src="https://b2.430074.xyz/430074/tools/Picture3.png"> 像这种论坛式的网站还有这些，欢迎大家补充： <span class="exturl" data-url="aHR0cHM6Ly80cGRhLnRvLw==">https://4pda.to/<i class="fa fa-external-link-alt"></i></span> <span class="exturl" data-url="aHR0cHM6Ly9mb3J1bS50dXRzNHlvdS5jb20v">https://forum.tuts4you.com/<i class="fa fa-external-link-alt"></i></span> <span class="exturl" data-url="aHR0cHM6Ly93d3cuNTJwb2ppZS5jbi8=">https://www.52pojie.cn/<i class="fa fa-external-link-alt"></i></span></p>
+</li>
+<li><p>423down 破解软件下载站<br>有很多实用的破解软件，基本上已经够用了。<br>网站链接： <span class="exturl" data-url="aHR0cHM6Ly93d3cuNDIzZG93bi5jb20v">https://www.423down.com/<i class="fa fa-external-link-alt"></i></span> 其他还有一些差不多的网站： <span class="exturl" data-url="aHR0cHM6Ly93d3cubXB5aXQuY29tLw==">https://www.mpyit.com/<i class="fa fa-external-link-alt"></i></span> <span class="exturl" data-url="aHR0cHM6Ly93d3cuZ2h4aS5jb20v">https://www.ghxi.com/<i class="fa fa-external-link-alt"></i></span> <span class="exturl" data-url="aHR0cHM6Ly9scmVwYWNrcy5uZXQv">https://lrepacks.net/<i class="fa fa-external-link-alt"></i></span> <span class="exturl" data-url="aHR0cHM6Ly9jcmFja3N1cmwuY29tLw==">https://cracksurl.com/<i class="fa fa-external-link-alt"></i></span> <span class="exturl" data-url="aHR0cDovL3d3dy5uaXJzb2Z0Lm5ldC8=">http://www.nirsoft.net/<i class="fa fa-external-link-alt"></i></span></p>
+</li>
+</ol>
+<h3 id="文献下载"><a href="#文献下载" class="headerlink" title="文献下载"></a>文献下载</h3><ol>
+<li><p><strong>SooPAT 专利搜索</strong>：<br>中国专利，能搜能下，咱啥也不图。<br>网站链接： <span class="exturl" data-url="aHR0cDovL3d3dy5zb29wYXQuY29tLw==">http://www.soopat.com/<i class="fa fa-external-link-alt"></i></span></p>
+<p>其他的还有：<br>Google 专利： <span class="exturl" data-url="aHR0cHM6Ly9zY2hvbGFyLmdvb2dsZS5jb20v">https://scholar.google.com/<i class="fa fa-external-link-alt"></i></span> 欧洲专利局： <span class="exturl" data-url="aHR0cHM6Ly93b3JsZHdpZGUuZXNwYWNlbmV0LmNvbS8=">https://worldwide.espacenet.com/<i class="fa fa-external-link-alt"></i></span> 美国专利局： <span class="exturl" data-url="aHR0cHM6Ly93d3cudXNwdG8uZ292L3BhdGVudHMvc2VhcmNo">Search for patents | USPTO<i class="fa fa-external-link-alt"></i></span></p>
+</li>
+<li><p><strong>pqdtcn 国外学位论文检索</strong>：<br>是不是下载博士论文除了知网不知道用啥了呢，没错这个就是搜索和下载国外学位论文的好地方。<br>网站链接： <span class="exturl" data-url="aHR0cHM6Ly93d3cucHFkdGNuLmNvbS8=">https://www.pqdtcn.com/<i class="fa fa-external-link-alt"></i></span></p>
+</li>
+<li><p><strong>researchrabbit</strong> 相关文献分析网站<br>可以通过一篇或者几篇文献，找到相关度高的其他文献。我最近才发现这个网站，还在试用中。<br>网站链接： <span class="exturl" data-url="aHR0cHM6Ly93d3cucmVzZWFyY2hyYWJiaXQuYWkv">https://www.researchrabbit.ai/<i class="fa fa-external-link-alt"></i></span> 其他的还有： <span class="exturl" data-url="aHR0cHM6Ly93d3cuY29ubmVjdGVkcGFwZXJzLmNvbS8=">https://www.connectedpapers.com/<i class="fa fa-external-link-alt"></i></span></p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>科研</category>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>科研</tag>
+        <tag>工具</tag>
       </tags>
   </entry>
   <entry>
@@ -453,7 +438,7 @@ async-dns-server=8.8.8.8, 1.1.1.1<span aria-hidden="true" class="line-numbers-ro
 <h3 id="3-2-修改参数。"><a href="#3-2-修改参数。" class="headerlink" title="3.2 修改参数。"></a>3.2 修改参数。</h3><p>1、修改 ALLOWED_REFERER 常量，里面包含了可以使用本服务的域名列表。按照模板，修改成自己的域名。同时 ALLOW_NO_ORIGIN = true 是表示允许无 referer 访问本服务，比如直接浏览器打开。若是对 Referer 有疑问，可参考：<span class="exturl" data-url="aHR0cHM6Ly93d3cucnVhbnlpZmVuZy5jb20vYmxvZy8yMDE5LzA2L2h0dHAtcmVmZXJlci5odG1s">HTTP Referer 教程 - 阮一峰的网络日志<i class="fa fa-external-link-alt"></i></span>。</p>
 <p>2、修改密码 MYSECRET，这里的密码是用来加密网址的，因为 Referer 可以伪造，所以为了避免他人用你的服务干自己的事情，所以需要密码进行加密。</p>
 <h3 id="3-3-获得加密请求网址"><a href="#3-3-获得加密请求网址" class="headerlink" title="3.3 获得加密请求网址"></a>3.3 获得加密请求网址</h3><p>1、假设 workers 绑定的域名是 w3schools.com ，密码是 123456 ，想要反代的网址是<span class="exturl" data-url="aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L25wbS9qcXVlcnlAMy4yLjEvZGlzdC9qcXVlcnkubWluLmpz"> https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js<i class="fa fa-external-link-alt"></i></span> 。</p>
-<p>2、获得带加密的明文，为 url.path + 密码，如上则是 /npm/<span class="exturl" data-url="bWFpbHRvOiYjMTA2OyYjeDcxOyYjeDc1OyYjMTAxOyYjeDcyOyYjeDc5OyYjNjQ7JiN4MzM7JiN4MmU7JiM1MDsmI3gyZTsmIzQ5Ow==">jquery@3.2.1<i class="fa fa-external-link-alt"></i></span>/dist/jquery.min.js123456 。获得该字符串的 SHA-1 编码，比如可以通过这个网站：<span class="exturl" data-url="aHR0cDovL3d3dy5tZXRvb2xzLmluZm8vY29kZS9jMjIuaHRtbA==">SHA1 在线加密、校验工具 - ME2 在线工具<i class="fa fa-external-link-alt"></i></span> 。得到密文 371388c8eafe02c8876f67abe1d170b920218881。</p>
+<p>2、获得带加密的明文，为 url.path + 密码，如上则是 /npm/<span class="exturl" data-url="bWFpbHRvOiYjMTA2OyYjMTEzOyYjMTE3OyYjeDY1OyYjMTE0OyYjeDc5OyYjNjQ7JiM1MTsmIzQ2OyYjNTA7JiN4MmU7JiN4MzE7">jquery@3.2.1<i class="fa fa-external-link-alt"></i></span>/dist/jquery.min.js123456 。获得该字符串的 SHA-1 编码，比如可以通过这个网站：<span class="exturl" data-url="aHR0cDovL3d3dy5tZXRvb2xzLmluZm8vY29kZS9jMjIuaHRtbA==">SHA1 在线加密、校验工具 - ME2 在线工具<i class="fa fa-external-link-alt"></i></span> 。得到密文 371388c8eafe02c8876f67abe1d170b920218881。</p>
 <p>3、生成新的请求网址：你的域名 + / 密文 + 原 url.path。如上文则是 <span class="exturl" data-url="aHR0cHM6Ly93M3NjaG9vbHMuY29tLzM3MTM4OGM4ZWFmZTAyYzg4NzZmNjdhYmUxZDE3MGI5MjAyMTg4ODEvbnBtL2pxdWVyeUAzLjIuMS9kaXN0L2pxdWVyeS5taW4uanM=">https://w3schools.com/371388c8eafe02c8876f67abe1d170b920218881/npm/jquery@3.2.1/dist/jquery.min.js<i class="fa fa-external-link-alt"></i></span> 。然后在网站中替换为该地址即可。</p>
 ]]></content>
       <categories>
@@ -463,6 +448,21 @@ async-dns-server=8.8.8.8, 1.1.1.1<span aria-hidden="true" class="line-numbers-ro
         <tag>编程</tag>
         <tag>网络</tag>
         <tag>建站</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>导波光学学习笔记（开坑了）</title>
+    <url>//posts/wgtheory.html</url>
+    <content><![CDATA[<p>本系列主要是针对网上没有针对导波光学比较深入的探讨，华科本科生学习的光纤也只是对圆形光纤的特性进行简单分析，没有从电磁场，激励源以及复杂波导的的角度进行分析。本学习笔记主要参考如下书籍，内容非常多，可能要写很久。</p>
+<p>Collin, R. E. <em>Field Theory of Guided Waves</em>. (Wiley-IEEE Press, 1990).</p>
+]]></content>
+      <categories>
+        <category>科研</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>科研</tag>
+        <tag>导播光学</tag>
       </tags>
   </entry>
 </search>
